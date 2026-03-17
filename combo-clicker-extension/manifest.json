@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Combo Clicker",
+    "version": "1.0",
+    "description": "Clicks 5 combo boxes on the page automatically.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_title": "Click Combos"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

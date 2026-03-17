@@ -1,450 +1,6 @@
 {
   "phases": [
     {
-      "id": 113930,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 4957,
-        "name": "MARIO OSTAN JUNIOR",
-        "email": "mario_ost@hotmail.com",
-        "avatar": null,
-        "enrollment_id": 5574,
-        "enrollment_hub_id": 29805,
-        "enrollment_ie_id": "25151190",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114282,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6132,
-        "name": "GABRIEL HEERDT",
-        "email": "gabriel.heerdt@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6845,
-        "enrollment_hub_id": 43552,
-        "enrollment_ie_id": "26150451",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114322,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6170,
-        "name": "TIAGO DE SOUZA MADRIS SANTOS",
-        "email": "timadris@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6883,
-        "enrollment_hub_id": 44016,
-        "enrollment_ie_id": "26150496",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114298,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6155,
-        "name": "LU\u00cdSA SILVA RODRIGUES",
-        "email": "rodrigues.lulisilva@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6868,
-        "enrollment_hub_id": 43759,
-        "enrollment_ie_id": "26150445",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114376,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6233,
-        "name": "ALEXIA COUGO DE VARGAS",
-        "email": "alexiacougo@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6950,
-        "enrollment_hub_id": 44511,
-        "enrollment_ie_id": "26150572",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114166,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 5971,
-        "name": "LUCAS MELLO",
-        "email": "hcluccascastro@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6678,
-        "enrollment_hub_id": 41799,
-        "enrollment_ie_id": "26150268",
-        "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-        "course_id": 14,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114208,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6020,
-        "name": "NAT\u00c1LIA LARA",
-        "email": "laranatalia556@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6727,
-        "enrollment_hub_id": 41849,
-        "enrollment_ie_id": "26150317",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114246,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6082,
-        "name": "ENEI PEREIRA JUNIOR",
-        "email": "eneipereira@outlook.com.br",
-        "avatar": null,
-        "enrollment_id": 6792,
-        "enrollment_hub_id": 42130,
-        "enrollment_ie_id": "26150266",
-        "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-        "course_id": 14,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114268,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6112,
-        "name": "VINICIUS GAVA",
-        "email": "vinigava15@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6824,
-        "enrollment_hub_id": 43165,
-        "enrollment_ie_id": "26150426",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114370,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6220,
-        "name": "MATHEUS GOMES",
-        "email": "matheus.barbosa.ab14@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6935,
-        "enrollment_hub_id": 44440,
-        "enrollment_ie_id": "26150558",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114162,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 5969,
-        "name": "CAMILE DIAS DOS SANTOS",
-        "email": "camile.ddsantos@gmail.com",
-        "avatar": "https://pucrs-ie-conteudo-prod.edtech.com.br/bc4a157a7bd808dbe1311b4746132525.jpeg?Expires=1773759870&Key-Pair-Id=K2B3OCIVN87WG8&Signature=aX2HM4P-0aOXntNraxTRerfvtwm4BPOKyO2JYx24a-2NAhrKPbN-ehgrkLkZQ8w1SNNYy48pGY4a73lS4DZg6YY~fz87rRFClkBwM6HWB~tH4mFJtQ5W0i0LdJ7BLD6A1964aw4NB2iCNep1~aD8qHunFpCf5l9uTjP~OIKlS1lqKorqGfJ9a1luWfIRScAcB1ObpkqDgW~mOzKMqaFawZyXJ4XrjXip-~ckXUIt33IuaK~fmmldL1gpK~80CGH2i0Qs9XvIkVNXUGc4KkJ2sO2q1QfKP1ytw8u9f16BYBKGHf7nwTDsl4llnvRYbSq8zUZUB8cN3hUPQDCcRKRA-w__",
-        "enrollment_id": 6676,
-        "enrollment_hub_id": 41797,
-        "enrollment_ie_id": "26150265",
-        "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-        "course_id": 14,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114328,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6179,
-        "name": "AMANDA WELLEN CONCEI\u00c7\u00c3O SAMPAIO",
-        "email": "amandawcs04@gmail.com",
-        "avatar": "https://pucrs-ie-conteudo-prod.edtech.com.br/bc17090057955c70a72b325505e074bc.jpeg?Expires=1773759870&Key-Pair-Id=K2B3OCIVN87WG8&Signature=n8ecc0VsbU5J-uEwh375cNwIasx4b0LaBbv74ia9QAFJ438S96L59l5adZBd2MIJXnjodT2gGXynRO~Ode84Cm6nvUgp2sXZWN9gVUVdH2WKWh6gjaXMtgtTJfZ17lyijZWUNIw2SqeP1T~UMPnE~SFgY9t2tfgceYjNVx~nzIbPxtc1nXh2sf0utee5HFYVGRZSNZmOaZ04zAaUynQX~tex7e4hsEu0S-kIYYxJwHZXI6RezMSsNf4RJc-QwQt4ecRFA5AOxDjAqcH5wKB3ed-JYdUSWXeV1L7FhkKNLUGDAKrFFiQa6z3jMwj9fHC7hYwZLjjEGho5gEAkNh71nw__",
-        "enrollment_id": 6892,
-        "enrollment_hub_id": 44197,
-        "enrollment_ie_id": "26150504",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
       "id": 114248,
       "phase_order": 1,
       "phase_grade": null,
@@ -482,7 +38,7 @@
       }
     },
     {
-      "id": 114218,
+      "id": 114352,
       "phase_order": 1,
       "phase_grade": null,
       "delivered_late": false,
@@ -498,13 +54,13 @@
         "email": "gustavo.rocha@pucrs.br"
       },
       "student": {
-        "id": 6047,
-        "name": "JO\u00c3O PEDRO RODRIGUES DE SOUZA BARBOZA",
-        "email": "jprsbarboza@gmail.com",
+        "id": 6204,
+        "name": "GUILHERME LINDNER PESSOA",
+        "email": "glindnerp@gmail.com",
         "avatar": null,
-        "enrollment_id": 6756,
-        "enrollment_hub_id": 41928,
-        "enrollment_ie_id": "26150346",
+        "enrollment_id": 6918,
+        "enrollment_hub_id": 44373,
+        "enrollment_ie_id": "26150537",
         "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
         "course_id": 15,
         "group_name": null
@@ -519,7 +75,7 @@
       }
     },
     {
-      "id": 114060,
+      "id": 114312,
       "phase_order": 1,
       "phase_grade": null,
       "delivered_late": false,
@@ -535,13 +91,13 @@
         "email": "gustavo.rocha@pucrs.br"
       },
       "student": {
-        "id": 5863,
-        "name": "ROBERTA DA SILVA",
-        "email": "robertadasilva.contato@gmail.com",
+        "id": 6164,
+        "name": "VICTOR PALMA",
+        "email": "victor.lindemeyer@gmail.com",
         "avatar": null,
-        "enrollment_id": 6560,
-        "enrollment_hub_id": 40877,
-        "enrollment_ie_id": "26150138",
+        "enrollment_id": 6877,
+        "enrollment_hub_id": 43947,
+        "enrollment_ie_id": "26150490",
         "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
         "course_id": 15,
         "group_name": null
@@ -556,7 +112,7 @@
       }
     },
     {
-      "id": 114124,
+      "id": 113988,
       "phase_order": 1,
       "phase_grade": null,
       "delivered_late": false,
@@ -572,50 +128,13 @@
         "email": "gustavo.rocha@pucrs.br"
       },
       "student": {
-        "id": 5935,
-        "name": "CRISTOPHER MOURA",
-        "email": "mouravir@gmail.com",
+        "id": 5745,
+        "name": "EDUARDO ABIB FAUSTINO",
+        "email": "abibeduardo86@gmail.com",
         "avatar": null,
-        "enrollment_id": 6640,
-        "enrollment_hub_id": 41590,
-        "enrollment_ie_id": "26150230",
-        "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-        "course_id": 14,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114390,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6253,
-        "name": "RAFAEL ACHTENBERG",
-        "email": "achtenberg.rafa@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6970,
-        "enrollment_hub_id": 44655,
-        "enrollment_ie_id": "26150602",
+        "enrollment_id": 6431,
+        "enrollment_hub_id": 35262,
+        "enrollment_ie_id": "25250657",
         "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
         "course_id": 15,
         "group_name": null
@@ -630,103 +149,29 @@
       }
     },
     {
-      "id": 114256,
+      "id": 114250,
       "phase_order": 1,
       "phase_grade": null,
       "delivered_late": false,
-      "delivered_resend": false,
+      "delivered_resend": true,
       "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
+        "date": "2026-04-22T03:00:00.000Z",
+        "color": null
       },
-      "release_date": "2026-03-24T03:00:00.000Z",
+      "release_date": "2026-04-23T03:00:00.000Z",
       "supervisor": {
         "id": 52,
         "name": "Gustavo Monti Rocha",
         "email": "gustavo.rocha@pucrs.br"
       },
       "student": {
-        "id": 6096,
-        "name": "RAFAEL SANTOS GALV\u00c3O",
-        "email": "rafagalvaonull@gmail.com",
-        "avatar": "https://pucrs-ie-conteudo-prod.edtech.com.br/8d3f33a79e6891cd6e525a62703c7690.jpeg?Expires=1773759870&Key-Pair-Id=K2B3OCIVN87WG8&Signature=WgGpmyWuw6XkRIW2JJJJwQ7vK2oY7JuF9OozIYW4eGezUe4iuMJue-Z5mYOde1N5SJsvlBdmlj4beB2LlB1YWcVdiGcap~U3nmpwEOU8pkBLT-EYdU80JAXLc-F0oqgLVeWAPZnoLexwgpuWnfFcO--4hB90ZXZoS001LOlbAYw8oFncjmw3yM5KYTiNvl6hUwIJUkPcPr41wD4AZQmcI02P1R57am1b~m9UXDmIX277lf-AJFP4iRGGj0D45wZS09Np6Ha7R46JpUI7Hq~cmlb3INYffWIeP0Nqtxbfzui3eR99joGtoT59grEjb8pS56iIVeWzdHy9DMAoMDyINw__",
-        "enrollment_id": 6807,
-        "enrollment_hub_id": 42682,
-        "enrollment_ie_id": "26150400",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114318,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 6167,
-        "name": "LUIS ANT\u00d4NIO PACHECO PASTORIZA",
-        "email": "luisppastoriza@gmail.com",
+        "id": 6090,
+        "name": "MATHEUS DE AZEVEDO",
+        "email": "matheusvieroazevedo@gmail.com",
         "avatar": null,
-        "enrollment_id": 6880,
-        "enrollment_hub_id": 43952,
-        "enrollment_ie_id": "26150493",
-        "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-        "course_id": 15,
-        "group_name": null
-      },
-      "period": {
-        "assignment_project_period_id": 11821,
-        "name": "2026/1"
-      },
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      }
-    },
-    {
-      "id": 114028,
-      "phase_order": 1,
-      "phase_grade": null,
-      "delivered_late": false,
-      "delivered_resend": false,
-      "deadline_evaluation": {
-        "date": "2026-03-23T03:00:00.000Z",
-        "color": "GREEN"
-      },
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "supervisor": {
-        "id": 52,
-        "name": "Gustavo Monti Rocha",
-        "email": "gustavo.rocha@pucrs.br"
-      },
-      "student": {
-        "id": 5811,
-        "name": "RICHARD GRIGOLO DE OLIVEIRA ALVES",
-        "email": "richard.grigolo@gmail.com",
-        "avatar": null,
-        "enrollment_id": 6504,
-        "enrollment_hub_id": 39851,
-        "enrollment_ie_id": "26150034",
+        "enrollment_id": 6801,
+        "enrollment_hub_id": 42612,
+        "enrollment_ie_id": "26150393",
         "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
         "course_id": 15,
         "group_name": null
@@ -741,6 +186,6 @@
       }
     }
   ],
-  "total": 26,
+  "total": 5,
   "have_group": false
 }

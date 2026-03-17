@@ -2,7 +2,6 @@ from typing import Optional
 from api_client import CookieAPIClient
 import json
 import os
-from google import genai
 
 # =============================================================================
 # CONFIGURATION PARAMETERS
@@ -414,191 +413,6 @@ def unzip_files():
         "failed_extractions": failed_extractions
     }
 
-def analyze_python_files_with_gemini():
-    """Analyze Python and Jupyter files in each directory using Gemini AI."""
-    print("\n\n🤖 Analyzing Python Files with Gemini AI")
-    print("=" * 50)
-    
-    # Configure Gemini API
-    # You'll need to set your API key in environment variables
-    api_key = os.getenv('GEMINI_API_KEY')
-    if not api_key:
-        print("❌ GEMINI_API_KEY environment variable not set.")
-        print("   Please set your Gemini API key: export GEMINI_API_KEY='your-api-key'")
-        return
-    
-    #genai.configure(api_key=api_key)
-    
-    client = genai.Client(api_key=api_key)
-    
-    downloads_dir = DOWNLOADS_DIRECTORY
-    
-    if not os.path.exists(downloads_dir):
-        print(f"❌ Downloads directory '{downloads_dir}' not found.")
-        return
-    
-    # Get all directories (excluding zip files)
-    directories = [d for d in os.listdir(downloads_dir) 
-                  if os.path.isdir(os.path.join(downloads_dir, d))]
-    
-    if not directories:
-        print(f"ℹ️  No directories found in '{downloads_dir}'")
-        return
-    
-    print(f"🔍 Found {len(directories)} directories to analyze")
-    
-    analysis_results = []
-    
-    for i, dir_name in enumerate(directories, 1):
-        dir_path = os.path.join(downloads_dir, dir_name)
-        print(f"\n📁 Analyzing {i}/{len(directories)}: {dir_name}")
-        
-        # Find Python and Jupyter files
-        python_files = []
-        for root, dirs, files in os.walk(dir_path):
-            for file in files:
-                if file.endswith(('.py', '.ipynb')):
-                    file_path = os.path.join(root, file)
-                    python_files.append(file_path)
-        
-        if not python_files:
-            print(f"   ℹ️  No Python/Jupyter files found in {dir_name}")
-            continue
-        
-        print(f"   📄 Found {len(python_files)} Python/Jupyter file(s)")
-        
-        # Read all Python files content
-        all_code_content = ""
-        for file_path in python_files:
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    file_name = os.path.basename(file_path)
-                    all_code_content += f"\n\n# File: {file_name}\n"
-                    all_code_content += "#" + "="*50 + "\n"
-                    all_code_content += content
-                    all_code_content += "\n" + "="*50 + "\n"
-            except Exception as e:
-                print(f"   ❌ Error reading {file_path}: {e}")
-                continue
-        
-        if not all_code_content.strip():
-            print(f"   ⚠️  No readable content found in {dir_name}")
-            continue
-        
-        # Create prompt for Gemini
-        prompt = f"""
-Você é um professor de Python e vai corrigir trabalhos das disciplinas de Lógica e Programação avaliando 5 critérios.
-
-O trabalho solicita que o aluno faça a leitura de 12 meses (numéricos) e 12 temperaturas (númericas). Para correção você pode usar os valores na sequencia, -60, -60, 1, 2, 3, 4, 5, 6, 7, 34, 34, 34. Não é necessário informar o número do mês.
-
-Para o critério 1, você deve avaliar:
-
-- Verificar se o programa faz a crítica ao informar uma temperatura inválida (acima de -60, ou seja, -61, -62 e por adiante)
-
-- Verificar se permitiu a redigitação de um valor válido (entre -60 e 50).
-
-Se os dois critérios forem atendidos, a nota é 0.6. Se o primeiro não for atendido a nota é 0.2. Se o segundo não for atendido a nota é 0.3.
-
-Para o critério 2, você deve avaliar:
-
-- Se o calculo da temperatura média é igual a 0.83 ou um valor muito próximo a esse como por ex: 0.8333. Lembrando que dependendo de como o usuário arrendonda os valores a média não é exatamente 0.83.
-
-Se o critério for atendido a nota é 0.6. Se não for atendido a nota é 0.3. Se não fez nada em relação ao critério a nota é 0.0.
-
-Para o critério 3, você deve avaliar:
-
-- Se a quantidade de meses acima de 33 (escaldantes) é igual a 3.
-
-Se o critério for atendido a nota é 0.6. Se não for atendido a nota é 0.3. Se não fez nada em relação ao critério a nota é 0.0.
-
-Para o critério 4 você deve avaliar:
-
-- Se o mês mais escaldante está entre as opções de Outubro, Novembro e Dezembro.
-
-Se o critério for atendido a nota é 0.6. Se não for atendido a nota é 0.2. Se não fez nada em relação ao critério a nota é 0.0.
-
-Para o critério 5 você deve avaliar:
-
-- Se o mês menos escaldante está entre as opções de Janeiro e Fevereiro.
-
-Se o critério for atendido a nota é 0.6. Se não for atendido a nota é 0.2. Se não fez nada em relação ao critério a nota é 0.0.
-
-Código do projeto:
-{all_code_content}
-
-
-Faça uma tabela com a correção de cada item com a pontuação bem como recomendações de melhoria no programa (somente 3).
-""" 
-        
-
-        try:
-            print(f"   🤖 Enviando para análise do Gemini...")
-            from pydantic import BaseModel
-
-            class CriterioAvaliacao(BaseModel):
-                id: int
-                pontuacao: float
-                descricao: str
-
-            class Analysis(BaseModel):
-                aluno: str
-                criterios_avaliacao: Optional[list[CriterioAvaliacao]] = None
-                nota_final: Optional[float] = None
-                recomendacoes_melhoria: Optional[list[str]] = None
-            
-            # Generate response from Gemini
-            response = client.models.generate_content(contents=prompt, model="gemini-1.5-flash", config={"response_mime_type": "application/json",
-        "response_schema": Analysis} )
-            print(response.text)
-
-        
-            
-            # Try to parse as JSON, if not, format as text
-            try:
-                analysis = json.loads(response.text)
-                
-                #insert into aluno the name of the directory
-                aluno = dir_name.split('_')[0]
-                analysis["aluno"] = aluno
-             
-            except json.JSONDecodeError:
-                # If not valid JSON, create a structured response
-                analysis = {
-                    "student_directory": dir_name,
-                    "raw_analysis": response.text,
-                    "status": "text_response"
-                }
-            
-          
-            analysis_results.append(analysis)
-            
-            print(f"   ✅ Análise concluída para {dir_name}")
-            
-        except Exception as e:
-            print(f"   ❌ Erro na análise do Gemini para {dir_name}: {e}")
-            analysis_results.append({
-                "student_directory": dir_name,
-                "error": str(e),
-                "status": "failed"
-            })
-    
-    # Save all analysis results
-    analysis_file = "gemini_analysis_results.json"
-    with open(analysis_file, 'w', encoding='utf-8') as f:
-        json.dump(analysis_results, f, indent=2, ensure_ascii=False)
-    
-    print(f"\n📊 Análise Concluída:")
-    print(f"   📁 Diretórios analisados: {len(directories)}")
-    print(f"   ✅ Análises bem-sucedidas: {len([r for r in analysis_results if 'error' not in r])}")
-    print(f"   ❌ Análises com erro: {len([r for r in analysis_results if 'error' in r])}")
-    print(f"   💾 Resultados salvos em: {analysis_file}")
-
-    
-    return analysis_results
-
-
-
 def main():    
     
     cookie_inspection()
@@ -609,7 +423,6 @@ def main():
         fetch_student_phase_details()
         download_attachments()
      #   unzip_files()
-      #  analyze_python_files_with_gemini()
 
     #example_post_request()
     

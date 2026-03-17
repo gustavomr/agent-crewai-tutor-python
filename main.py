@@ -3,24 +3,12 @@ import zipfile
 import tempfile
 import glob
 import time
+import argparse
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, LLM
 
 # Load environment variables from .env file
 load_dotenv()
-
-# Configuração da API
-groq_api_key = os.getenv("GROQ_API_KEY")
-if not groq_api_key:
-    raise ValueError("GROQ_API_KEY not found in environment variables. Please check your .env file.")
-
-llm_model = os.getenv("LLM_MODEL", "groq/llama-3.3-70b-versatile")
-llm_temperature = float(os.getenv("LLM_TEMPERATURE", "0.1"))
-
-llm = LLM(
-    model=llm_model,
-    temperature=llm_temperature
-)
 
 def process_zip_file(zip_path):
     """
@@ -99,7 +87,7 @@ def extract_student_name(zip_filename):
     """
     return os.path.splitext(zip_filename)[0]
 
-def analyze_student_code(codigo_aluno, student_name):
+def analyze_student_code(codigo_aluno, student_name, llm):
     """
     Analyze student code using CrewAI and return the result.
     """
@@ -147,10 +135,76 @@ def analyze_student_code(codigo_aluno, student_name):
     resultado = corretor_automatico.kickoff()
     return resultado
 
+def parse_arguments():
+    """
+    Parse command line arguments.
+    """
+    parser = argparse.ArgumentParser(description='Analyze student code using AI')
+    parser.add_argument('--groq', action='store_true', help='Use Groq as LLM provider')
+    parser.add_argument('--openrouter', action='store_true', help='Use OpenRouter as LLM provider')
+    return parser.parse_args()
+
+def get_llm_provider(args):
+    """
+    Determine LLM provider based on command line arguments or environment variable.
+    """
+    if args.groq and args.openrouter:
+        raise ValueError("Cannot specify both --groq and --openrouter. Please choose one.")
+    elif args.groq:
+        return "groq"
+    elif args.openrouter:
+        return "openrouter"
+    else:
+        # Default to environment variable or "groq" if not set
+        return os.getenv("LLM_PROVIDER", "groq").lower()
+
 def main():
     """
     Main function to process all zip files in downloads folder and generate individual results.
     """
+    # Parse command line arguments
+    args = parse_arguments()
+    
+    # Get LLM provider selection
+    llm_provider = get_llm_provider(args)
+    if llm_provider not in ["groq", "openrouter"]:
+        raise ValueError(f"Invalid LLM_PROVIDER '{llm_provider}'. Must be 'groq' or 'openrouter'.")
+
+    # Configuração da API
+    if llm_provider == "groq":
+        groq_api_key = os.getenv("GROQ_API_KEY")
+        if not groq_api_key:
+            raise ValueError("GROQ_API_KEY not found in environment variables. Please check your .env file.")
+        os.environ["GROQ_API_KEY"] = groq_api_key
+    elif llm_provider == "openrouter":
+        openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
+        if not openrouter_api_key:
+            raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please check your .env file.")
+        os.environ["OPENROUTER_API_KEY"] = openrouter_api_key
+
+    llm_model = os.getenv("LLM_MODEL", "groq/llama-3.3-70b-versatile")
+    llm_temperature = float(os.getenv("LLM_TEMPERATURE", "0.1"))
+
+    # Adjust model name for OpenRouter if needed
+    if llm_provider == "openrouter" and not llm_model.startswith("openrouter/"):
+        # Convert groq model to openrouter equivalent
+        if "llama-3.3-70b-versatile" in llm_model:
+            llm_model = "openrouter/meta-llama/llama-3.3-70b-instruct"
+        elif "llama-3.1-70b" in llm_model:
+            llm_model = "openrouter/meta-llama/llama-3.1-70b-instruct"
+        elif "llama-3.1-8b" in llm_model:
+            llm_model = "openrouter/meta-llama/llama-3.1-8b-instruct"
+        else:
+            # Default to a good openrouter model if no mapping found
+            llm_model = "openrouter/meta-llama/llama-3.3-70b-instruct"
+
+    llm = LLM(
+        model=llm_model,
+        temperature=llm_temperature
+    )
+
+    print(f"🤖 Using LLM Provider: {llm_provider.upper()}")
+    print(f"🧠 Model: {llm_model}")
     # Get the downloads folder path (inside the project)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     downloads_dir = os.path.join(script_dir, os.getenv("DOWNLOADS_DIRECTORY", "downloads"))
@@ -197,7 +251,7 @@ def main():
         
         # Analyze the code
         try:
-            resultado = analyze_student_code(codigo_aluno, student_name)
+            resultado = analyze_student_code(codigo_aluno, student_name, llm)
             
             # Generate individual result file
             result_filename = f"resultado_{student_name}.txt"
