@@ -142,6 +142,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='Analyze student code using AI')
     parser.add_argument('--groq', action='store_true', help='Use Groq as LLM provider')
     parser.add_argument('--openrouter', action='store_true', help='Use OpenRouter as LLM provider')
+    parser.add_argument('--project-office-id', type=str, help='Project Office ID for class identification')
     return parser.parse_args()
 
 def get_llm_provider(args):
@@ -158,6 +159,16 @@ def get_llm_provider(args):
         # Default to environment variable or "groq" if not set
         return os.getenv("LLM_PROVIDER", "groq").lower()
 
+def get_project_office_id(args):
+    """
+    Determine Project Office ID from command line arguments or environment variable.
+    """
+    if args.project_office_id:
+        return args.project_office_id
+    else:
+        # Default to environment variable
+        return os.getenv("PROJECT_OFFICE_ID", "11820")
+
 def main():
     """
     Main function to process all zip files in downloads folder and generate individual results.
@@ -169,6 +180,10 @@ def main():
     llm_provider = get_llm_provider(args)
     if llm_provider not in ["groq", "openrouter"]:
         raise ValueError(f"Invalid LLM_PROVIDER '{llm_provider}'. Must be 'groq' or 'openrouter'.")
+
+    # Get Project Office ID
+    project_office_id = get_project_office_id(args)
+    print(f"🏢 Project Office ID: {project_office_id}")
 
     # Configuração da API
     if llm_provider == "groq":

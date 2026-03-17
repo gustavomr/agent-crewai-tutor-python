@@ -2,6 +2,7 @@ from typing import Optional
 from api_client import CookieAPIClient
 import json
 import os
+import argparse
 
 # =============================================================================
 # CONFIGURATION PARAMETERS
@@ -413,7 +414,35 @@ def unzip_files():
         "failed_extractions": failed_extractions
     }
 
+def parse_arguments():
+    """
+    Parse command line arguments.
+    """
+    parser = argparse.ArgumentParser(description='Download student submissions from API')
+    parser.add_argument('--project-office-id', type=str, help='Project Office ID for class identification')
+    return parser.parse_args()
+
+def get_project_office_id(args):
+    """
+    Determine Project Office ID from command line arguments or environment variable.
+    """
+    if args.project_office_id:
+        return args.project_office_id
+    else:
+        # Default to environment variable
+        return os.getenv("PROJECT_OFFICE_ID", "11820")
+
 def main():    
+    # Parse command line arguments
+    args = parse_arguments()
+    
+    # Get Project Office ID
+    project_office_id = get_project_office_id(args)
+    print(f"🏢 Project Office ID: {project_office_id}")
+    
+    # Update global PROJECT_OFFICE_ID for this session
+    global PROJECT_OFFICE_ID
+    PROJECT_OFFICE_ID = project_office_id    
     
     cookie_inspection()
     get_all_students_filtered_data = get_all_students()

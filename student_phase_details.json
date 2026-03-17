@@ -1,24 +1,24 @@
 [
   {
-    "student_project_id": 69638,
+    "student_project_id": 72596,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 6084,
-      "name": "WILSON OLIVEIRA LIMA",
-      "email": "wilssola@icloud.com",
+      "id": 5213,
+      "name": "GRAZIELLY CAVALCANTE DE OLIVEIRA",
+      "email": "grazioliveira2705@gmail.com",
       "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-      "enrollment_id": 6795,
-      "enrollment_hub_id": 42174,
-      "enrollment_ie": "26150384"
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 5862,
+      "enrollment_hub_id": 30972,
+      "enrollment_ie": "25250120"
     },
     "student_phase": {
-      "id": 114248,
+      "id": 120044,
       "phase_order": 1,
       "delivery_late": false,
       "delivery_resend": false,
-      "delivery_at_date": "2026-03-08T23:22:58.000Z",
+      "delivery_at_date": "2026-03-16T23:36:20.000Z",
       "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
       "release_date": "2026-03-24T03:00:00.000Z",
       "status": {
@@ -27,10 +27,10 @@
       },
       "attachments": [
         {
-          "id": 67356,
-          "original_name": "Fase 1.zip",
-          "filename": "96b8b63f08d752ca8c77f2843ab6f14c.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/96b8b63f08d752ca8c77f2843ab6f14c.zip?Expires=1773765726&Key-Pair-Id=K2B3OCIVN87WG8&Signature=Z5889qBvQaPGiRBSClfZd-oxquhLs2hUYBKU8AIkGfzwtWEdZRXXIjF0Jelh0PR2yU3qj7mBG98QygwU~1J3SU0mhaTEn-ApB16Z-SQRPdn~tnefhvUFiDMVz-M3FZCeuB06A8Q1zdXLt4~AnixTw8FLg5vR7KTDaMmWo9aQDPSc7bGYzIAN7G-VkBGeeQ8S~8ua-2sZGs66-thAOti1XUAwDUWiXuVM5wamUmLZgl0Lbpksp8xIH4sw2PrqXObMVGF1-BAS7UBg1TY5SVva5UKtBRCx0OlOkZt3Yb5WU1YrKFwcPItIWhCBggNUwQvreMi3xIY-x2pVeRvZM6Z-GA__"
+          "id": 70290,
+          "original_name": "Fase_01_Projeto.zip",
+          "filename": "26626d63ec1d4737be74f9f3ff9c55d6.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/26626d63ec1d4737be74f9f3ff9c55d6.zip?Expires=1773769789&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ZAxopVgMK4ESo~6-PbriSzJ0W9WkTr7Xmm0QPXHRnbSqSdfbMdqttC9pPNWqS0bO6yU9AmnIC~gOEy-qZ2P~31xdxlS2mbx3wjhQrimlBCDP52PD0Zl2a8uBUpLQc9bm2NuB2ir9Bmnz8DpCMCrfBFRccGr49JrG2e2r~W1lF5Oc7g0jOARbVbNkAFgfWMR3t1Pf15nAlQ~fHi2INRC~U14gvUUUXx9CcaGsLDY~Ze9Me9yJbFJyxRlM9pZcO9WvKbq1NM9xyIIQLmZp6ilr~uPndmNIf8wQm72-ut7Xe3ZTNLCBn4iBudys~ZHPUH8FDBGho9JXmOAWoFoXp4OGIQ__"
         }
       ]
     },
@@ -42,121 +42,156 @@
     },
     "criteria": [
       {
-        "id": 18359,
+        "id": 18686,
         "title": "Crit\u00e9rio 1",
-        "description": "Leitura e valida\u00e7\u00e3o dos dados de entrada",
-        "total_weight": 0.6,
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
         "dimensions": [
           {
-            "id": 38002,
-            "description": "Leitura e valida\u00e7\u00e3o dos dados corretas e em conformidade com o enunciado e com os dados sugeridos para teste, com c\u00f3digo organizado e leg\u00edvel",
-            "weight": 0.6
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
           },
           {
-            "id": 38003,
-            "description": "Leitura correta, com valida\u00e7\u00e3o mas sem oportunidade de redigita\u00e7\u00e3o dos dados incorretos ou em discord\u00e2ncia em alguns pontos com o enunciado. Ou leitura e valida\u00e7\u00e3o corretas mas com c\u00f3digo desorganizado e/ou ileg\u00edvel",
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
             "weight": 0.3
           },
           {
-            "id": 38004,
-            "description": "Leitura correta, mas sem valida\u00e7\u00e3o. C\u00f3digo desorganizado e/ou ileg\u00edvel ",
-            "weight": 0.2
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
           },
           {
-            "id": 38005,
-            "description": "Leitura incompleta ou incorreta. C\u00f3digo muito desorganizado e/ou ileg\u00edvel",
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18360,
+        "id": 18687,
         "title": "Crit\u00e9rio 2",
-        "description": "Temperatura m\u00e9dia m\u00e1xima anual ",
-        "total_weight": 0.6,
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
         "dimensions": [
           {
-            "id": 38006,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da temperatura m\u00e9dia anual ",
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
             "weight": 0.6
           },
           {
-            "id": 38007,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
             "weight": 0.3
           },
           {
-            "id": 38008,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18361,
-        "title": "Crit\u00e9rio 3",
-        "description": "Quantidade de meses escaldantes",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38009,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da quantidade de meses escaldantes",
-            "weight": 0.6
-          },
-          {
-            "id": 38010,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
-            "weight": 0.2
-          },
-          {
-            "id": 38011,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18362,
-        "title": "Crit\u00e9rio 4",
-        "description": "M\u00eas mais escaldante do ano",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38012,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas mais escaldante",
-            "weight": 0.6
-          },
-          {
-            "id": 38013,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo) ",
-            "weight": 0.2
-          },
-          {
-            "id": 38014,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18363,
+        "id": 18690,
         "title": "Crit\u00e9rio 5",
-        "description": "M\u00eas menos quente do ano",
+        "description": "Arquivo CSV Final  ",
         "total_weight": 0.6,
         "dimensions": [
           {
-            "id": 38015,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas menos quente ",
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
             "weight": 0.6
           },
           {
-            "id": 38016,
-            "description": "Defini\u00e7\u00e3o do m\u00eas menos quente ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo)",
-            "weight": 0.2
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
           },
           {
-            "id": 38017,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
             "weight": 0
           }
         ]
@@ -165,24 +200,19 @@
     "percentage_delay": 0.20000000000000004,
     "feedbacks": [
       {
-        "id": 304,
+        "id": 308,
         "title": "Fase 1",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente e implementou uma funcionalidade importante que permite ao usu\u00e1rio redigitar algum dado incorreto, com valida\u00e7\u00f5es entre temperaturas de -60 a +50 graus.</p>\n</li>\n<li>\n<p><strong>C\u00e1lculo da M\u00e9dia Anual:</strong> A m\u00e9dia da temperatura anual foi calculada corretamente, levando em considera\u00e7\u00e3o inclusive os meses menos escaldantes (temperaturas negativas).</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o de Meses Escaldantes:</strong> Voc\u00ea apresentou de forma correta a quantidade de meses escaldantes.</p>\n</li>\n<li>\n<p><strong>Apresenta\u00e7\u00e3o dos Meses:</strong> O m\u00eas mais quente e o m\u00eas mais frio foram apresentados por extenso, conforme solicitado, demonstrando aten\u00e7\u00e3o aos detalhes.</p>\n</li>\n</ul>\n<p>Pr\u00f3ximos Passos</p>\n<p>Na <strong>Fase 2</strong>, voc\u00ea aprender\u00e1 sobre estruturas de dados, outras estruturas de repeti\u00e7\u00e3o, e como trabalhar com gr\u00e1ficos! Essas novas habilidades permitir\u00e3o que voc\u00ea crie programas ainda mais eficientes e visualmente interessantes.</p>\n<p>Continue com esse empenho, e voc\u00ea ver\u00e1 como seu conhecimento em programa\u00e7\u00e3o se expandir\u00e1. Estamos ansiosos para ver suas pr\u00f3ximas entregas!</p>\n<p>Vamos em frente!</p>"
-      },
-      {
-        "id": 305,
-        "title": "Fase 2",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente utilizando as estruturas de dados solicitadas.</p>\n</li>\n<li>\n<p><strong>Exibi\u00e7\u00e3o dos Dados:</strong> A exibi\u00e7\u00e3o dos dados em tela foi feita de forma correta, permitindo a sele\u00e7\u00e3o de per\u00edodos e mostrando as op\u00e7\u00f5es solicitadas: 1) todos os dados, 2) apenas os de precipita\u00e7\u00e3o, 3) apenas os de temperatura, ou 4) apenas os de umidade e vento para o per\u00edodo informado.</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o do M\u00eas Mais Chuvoso:</strong> Voc\u00ea identificou corretamente o m\u00eas mais chuvoso de todo o arquivo.</p>\n</li>\n<li>\n<p><strong>M\u00e9dia de Temperatura M\u00ednima:</strong> A identifica\u00e7\u00e3o do m\u00eas e sua m\u00e9dia de temperatura m\u00ednima para cada ano nos \u00faltimos 11 anos foi apresentada de forma correta, assim como a m\u00e9dia geral para todo esse per\u00edodo.</p>\n</li>\n<li>\n<p><strong>Gr\u00e1fico:</strong> O gr\u00e1fico apresentou corretamente a m\u00e9dia da temperatura m\u00ednima dos \u00faltimos 11 anos.</p>\n</li>\n</ul>\n<p><br />Continue com esse \u00f3timo trabalho! Sua dedica\u00e7\u00e3o est\u00e1 claramente refletida em suas entregas, e estamos animados para ver como voc\u00ea aplicar\u00e1 esses novos conhecimentos.</p>"
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
       }
     ],
     "history": [
       {
-        "id": 331974,
-        "created_at": "2026-03-09T02:22:58.483Z",
+        "id": 335934,
+        "created_at": "2026-03-17T02:36:20.803Z",
         "delivered_late": false,
         "delivered_resend": false,
-        "submission_date": "2026-03-09T02:22:58.000Z",
-        "last_submission_date": "2026-03-09T02:22:58.000Z",
+        "submission_date": "2026-03-17T02:36:20.000Z",
+        "last_submission_date": "2026-03-17T02:36:20.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -190,9 +220,9 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 6084,
-          "name": "WILSON OLIVEIRA LIMA",
-          "email": "wilssola@icloud.com",
+          "id": 5213,
+          "name": "GRAZIELLY CAVALCANTE DE OLIVEIRA",
+          "email": "grazioliveira2705@gmail.com",
           "avatar": null
         },
         "supervisor": null,
@@ -200,17 +230,17 @@
           "form_answers": [],
           "attachments": [
             {
-              "id": 45966,
-              "original_name": "Fase 1.zip",
-              "filename": "96b8b63f08d752ca8c77f2843ab6f14c.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/96b8b63f08d752ca8c77f2843ab6f14c.zip?Expires=1773765726&Key-Pair-Id=K2B3OCIVN87WG8&Signature=Z5889qBvQaPGiRBSClfZd-oxquhLs2hUYBKU8AIkGfzwtWEdZRXXIjF0Jelh0PR2yU3qj7mBG98QygwU~1J3SU0mhaTEn-ApB16Z-SQRPdn~tnefhvUFiDMVz-M3FZCeuB06A8Q1zdXLt4~AnixTw8FLg5vR7KTDaMmWo9aQDPSc7bGYzIAN7G-VkBGeeQ8S~8ua-2sZGs66-thAOti1XUAwDUWiXuVM5wamUmLZgl0Lbpksp8xIH4sw2PrqXObMVGF1-BAS7UBg1TY5SVva5UKtBRCx0OlOkZt3Yb5WU1YrKFwcPItIWhCBggNUwQvreMi3xIY-x2pVeRvZM6Z-GA__"
+              "id": 48901,
+              "original_name": "Fase_01_Projeto.zip",
+              "filename": "26626d63ec1d4737be74f9f3ff9c55d6.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/26626d63ec1d4737be74f9f3ff9c55d6.zip?Expires=1773769789&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ZAxopVgMK4ESo~6-PbriSzJ0W9WkTr7Xmm0QPXHRnbSqSdfbMdqttC9pPNWqS0bO6yU9AmnIC~gOEy-qZ2P~31xdxlS2mbx3wjhQrimlBCDP52PD0Zl2a8uBUpLQc9bm2NuB2ir9Bmnz8DpCMCrfBFRccGr49JrG2e2r~W1lF5Oc7g0jOARbVbNkAFgfWMR3t1Pf15nAlQ~fHi2INRC~U14gvUUUXx9CcaGsLDY~Ze9Me9yJbFJyxRlM9pZcO9WvKbq1NM9xyIIQLmZp6ilr~uPndmNIf8wQm72-ut7Xe3ZTNLCBn4iBudys~ZHPUH8FDBGho9JXmOAWoFoXp4OGIQ__"
             }
           ]
         }
       },
       {
-        "id": 321913,
-        "created_at": "2026-02-19T09:01:53.039Z",
+        "id": 327709,
+        "created_at": "2026-02-19T09:03:56.369Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -222,9 +252,9 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 6084,
-          "name": "WILSON OLIVEIRA LIMA",
-          "email": "wilssola@icloud.com",
+          "id": 5213,
+          "name": "GRAZIELLY CAVALCANTE DE OLIVEIRA",
+          "email": "grazioliveira2705@gmail.com",
           "avatar": null
         },
         "supervisor": null
@@ -234,28 +264,28 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 114248
+    "phase_id": 120044
   },
   {
-    "student_project_id": 69690,
+    "student_project_id": 72598,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 6204,
-      "name": "GUILHERME LINDNER PESSOA",
-      "email": "glindnerp@gmail.com",
-      "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-      "enrollment_id": 6918,
-      "enrollment_hub_id": 44373,
-      "enrollment_ie": "26150537"
+      "id": 5283,
+      "name": "RAFAEL OLIVEIRA DO NASCIMENTO",
+      "email": "rfl.nascimento00@gmail.com",
+      "avatar": "b372a48d60088c544f0403e292cff272.jpeg",
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 5932,
+      "enrollment_hub_id": 31043,
+      "enrollment_ie": "25250235"
     },
     "student_phase": {
-      "id": 114352,
+      "id": 120046,
       "phase_order": 1,
       "delivery_late": false,
       "delivery_resend": false,
-      "delivery_at_date": "2026-03-03T16:59:50.000Z",
+      "delivery_at_date": "2026-03-16T22:35:46.000Z",
       "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
       "release_date": "2026-03-24T03:00:00.000Z",
       "status": {
@@ -264,10 +294,10 @@
       },
       "attachments": [
         {
-          "id": 67084,
-          "original_name": "p001.zip",
-          "filename": "0ed2b867838990d6c287753990b4bb48.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/0ed2b867838990d6c287753990b4bb48.zip?Expires=1773765727&Key-Pair-Id=K2B3OCIVN87WG8&Signature=eSVjKfC7cpk2DaXs2ydrsi4gAnT~QcZ2vUgaQAFucU~jpsun2OG3lvgrd3x5PA9m-edBNaKFfaoie8LxcM0rcPy8Li73ldNT4Hu9H0h9lOL1oi-u4V-5f9--~FOWUw2ARZGnFTBE-tKSAMniy~eBSQEh0pH5VwNTqL5rdml2N5pqVPKO808tR1tAd4Ju-aFCV87lqXQ0F93CoOBgMsmNrMDIZ-W~lPAyJuRyvNe4a2dJEBKXdKKR6KNiGQUiSIiTBX4r7Y3R5qbvVPRvZ4pxvoO5DcjeaXu23YL5OxIxFrN8Rn3NTFHa1djqZV1SnaL248ERYLm24OrhlerRXB4MXg__"
+          "id": 70084,
+          "original_name": "fase 1 coleta e prepara\u00e7\u00e3o de Dados.zip",
+          "filename": "768203c7ec5de43c0f1838c7291fc93a.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/768203c7ec5de43c0f1838c7291fc93a.zip?Expires=1773769790&Key-Pair-Id=K2B3OCIVN87WG8&Signature=EdjA4i2Y39I2YeANZECdh-gJdaOGDt7YiNrU9o3KCH54KAfYeLQtVe6NyvboDNyfbaeyqmpWfsCaQZJrxno8cryc~nTh828lEfV6YXxUTSBZ37uChMzV2i~KgvVj-7EcyDXGBx6ekA5nc5UaxgQ2u-R60~OcEMKec1wAL8FpgDbuyUpuEaj6UVoGtLCpvV8j0lz4Z-0jC7AOKd-ClK2p3Og~NCJkzw0o-ii04tk8Kw~qIn5KX2U-UU8iLjTfGfuu1Kgv5vfGjAzN07w8OckS8DiCklVx1E8lJKeusmZJuBdVUT~XE4j9EA7wG4fRKSSxuWZjZ~aOTAYiyPb-AF-Kew__"
         }
       ]
     },
@@ -279,121 +309,156 @@
     },
     "criteria": [
       {
-        "id": 18359,
+        "id": 18686,
         "title": "Crit\u00e9rio 1",
-        "description": "Leitura e valida\u00e7\u00e3o dos dados de entrada",
-        "total_weight": 0.6,
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
         "dimensions": [
           {
-            "id": 38002,
-            "description": "Leitura e valida\u00e7\u00e3o dos dados corretas e em conformidade com o enunciado e com os dados sugeridos para teste, com c\u00f3digo organizado e leg\u00edvel",
-            "weight": 0.6
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
           },
           {
-            "id": 38003,
-            "description": "Leitura correta, com valida\u00e7\u00e3o mas sem oportunidade de redigita\u00e7\u00e3o dos dados incorretos ou em discord\u00e2ncia em alguns pontos com o enunciado. Ou leitura e valida\u00e7\u00e3o corretas mas com c\u00f3digo desorganizado e/ou ileg\u00edvel",
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
             "weight": 0.3
           },
           {
-            "id": 38004,
-            "description": "Leitura correta, mas sem valida\u00e7\u00e3o. C\u00f3digo desorganizado e/ou ileg\u00edvel ",
-            "weight": 0.2
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
           },
           {
-            "id": 38005,
-            "description": "Leitura incompleta ou incorreta. C\u00f3digo muito desorganizado e/ou ileg\u00edvel",
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18360,
+        "id": 18687,
         "title": "Crit\u00e9rio 2",
-        "description": "Temperatura m\u00e9dia m\u00e1xima anual ",
-        "total_weight": 0.6,
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
         "dimensions": [
           {
-            "id": 38006,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da temperatura m\u00e9dia anual ",
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
             "weight": 0.6
           },
           {
-            "id": 38007,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
             "weight": 0.3
           },
           {
-            "id": 38008,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18361,
-        "title": "Crit\u00e9rio 3",
-        "description": "Quantidade de meses escaldantes",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38009,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da quantidade de meses escaldantes",
-            "weight": 0.6
-          },
-          {
-            "id": 38010,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
-            "weight": 0.2
-          },
-          {
-            "id": 38011,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18362,
-        "title": "Crit\u00e9rio 4",
-        "description": "M\u00eas mais escaldante do ano",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38012,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas mais escaldante",
-            "weight": 0.6
-          },
-          {
-            "id": 38013,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo) ",
-            "weight": 0.2
-          },
-          {
-            "id": 38014,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18363,
+        "id": 18690,
         "title": "Crit\u00e9rio 5",
-        "description": "M\u00eas menos quente do ano",
+        "description": "Arquivo CSV Final  ",
         "total_weight": 0.6,
         "dimensions": [
           {
-            "id": 38015,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas menos quente ",
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
             "weight": 0.6
           },
           {
-            "id": 38016,
-            "description": "Defini\u00e7\u00e3o do m\u00eas menos quente ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo)",
-            "weight": 0.2
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
           },
           {
-            "id": 38017,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
             "weight": 0
           }
         ]
@@ -402,24 +467,19 @@
     "percentage_delay": 0.20000000000000004,
     "feedbacks": [
       {
-        "id": 304,
+        "id": 308,
         "title": "Fase 1",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente e implementou uma funcionalidade importante que permite ao usu\u00e1rio redigitar algum dado incorreto, com valida\u00e7\u00f5es entre temperaturas de -60 a +50 graus.</p>\n</li>\n<li>\n<p><strong>C\u00e1lculo da M\u00e9dia Anual:</strong> A m\u00e9dia da temperatura anual foi calculada corretamente, levando em considera\u00e7\u00e3o inclusive os meses menos escaldantes (temperaturas negativas).</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o de Meses Escaldantes:</strong> Voc\u00ea apresentou de forma correta a quantidade de meses escaldantes.</p>\n</li>\n<li>\n<p><strong>Apresenta\u00e7\u00e3o dos Meses:</strong> O m\u00eas mais quente e o m\u00eas mais frio foram apresentados por extenso, conforme solicitado, demonstrando aten\u00e7\u00e3o aos detalhes.</p>\n</li>\n</ul>\n<p>Pr\u00f3ximos Passos</p>\n<p>Na <strong>Fase 2</strong>, voc\u00ea aprender\u00e1 sobre estruturas de dados, outras estruturas de repeti\u00e7\u00e3o, e como trabalhar com gr\u00e1ficos! Essas novas habilidades permitir\u00e3o que voc\u00ea crie programas ainda mais eficientes e visualmente interessantes.</p>\n<p>Continue com esse empenho, e voc\u00ea ver\u00e1 como seu conhecimento em programa\u00e7\u00e3o se expandir\u00e1. Estamos ansiosos para ver suas pr\u00f3ximas entregas!</p>\n<p>Vamos em frente!</p>"
-      },
-      {
-        "id": 305,
-        "title": "Fase 2",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente utilizando as estruturas de dados solicitadas.</p>\n</li>\n<li>\n<p><strong>Exibi\u00e7\u00e3o dos Dados:</strong> A exibi\u00e7\u00e3o dos dados em tela foi feita de forma correta, permitindo a sele\u00e7\u00e3o de per\u00edodos e mostrando as op\u00e7\u00f5es solicitadas: 1) todos os dados, 2) apenas os de precipita\u00e7\u00e3o, 3) apenas os de temperatura, ou 4) apenas os de umidade e vento para o per\u00edodo informado.</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o do M\u00eas Mais Chuvoso:</strong> Voc\u00ea identificou corretamente o m\u00eas mais chuvoso de todo o arquivo.</p>\n</li>\n<li>\n<p><strong>M\u00e9dia de Temperatura M\u00ednima:</strong> A identifica\u00e7\u00e3o do m\u00eas e sua m\u00e9dia de temperatura m\u00ednima para cada ano nos \u00faltimos 11 anos foi apresentada de forma correta, assim como a m\u00e9dia geral para todo esse per\u00edodo.</p>\n</li>\n<li>\n<p><strong>Gr\u00e1fico:</strong> O gr\u00e1fico apresentou corretamente a m\u00e9dia da temperatura m\u00ednima dos \u00faltimos 11 anos.</p>\n</li>\n</ul>\n<p><br />Continue com esse \u00f3timo trabalho! Sua dedica\u00e7\u00e3o est\u00e1 claramente refletida em suas entregas, e estamos animados para ver como voc\u00ea aplicar\u00e1 esses novos conhecimentos.</p>"
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
       }
     ],
     "history": [
       {
-        "id": 331411,
-        "created_at": "2026-03-03T19:59:51.269Z",
+        "id": 335706,
+        "created_at": "2026-03-17T01:35:46.352Z",
         "delivered_late": false,
         "delivered_resend": false,
-        "submission_date": "2026-03-03T19:59:50.000Z",
-        "last_submission_date": "2026-03-03T19:59:50.000Z",
+        "submission_date": "2026-03-17T01:35:46.000Z",
+        "last_submission_date": "2026-03-17T01:35:46.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -427,27 +487,27 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 6204,
-          "name": "GUILHERME LINDNER PESSOA",
-          "email": "glindnerp@gmail.com",
-          "avatar": null
+          "id": 5283,
+          "name": "RAFAEL OLIVEIRA DO NASCIMENTO",
+          "email": "rfl.nascimento00@gmail.com",
+          "avatar": "b372a48d60088c544f0403e292cff272.jpeg"
         },
         "supervisor": null,
         "student_answer_history": {
           "form_answers": [],
           "attachments": [
             {
-              "id": 45694,
-              "original_name": "p001.zip",
-              "filename": "0ed2b867838990d6c287753990b4bb48.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/0ed2b867838990d6c287753990b4bb48.zip?Expires=1773765727&Key-Pair-Id=K2B3OCIVN87WG8&Signature=eSVjKfC7cpk2DaXs2ydrsi4gAnT~QcZ2vUgaQAFucU~jpsun2OG3lvgrd3x5PA9m-edBNaKFfaoie8LxcM0rcPy8Li73ldNT4Hu9H0h9lOL1oi-u4V-5f9--~FOWUw2ARZGnFTBE-tKSAMniy~eBSQEh0pH5VwNTqL5rdml2N5pqVPKO808tR1tAd4Ju-aFCV87lqXQ0F93CoOBgMsmNrMDIZ-W~lPAyJuRyvNe4a2dJEBKXdKKR6KNiGQUiSIiTBX4r7Y3R5qbvVPRvZ4pxvoO5DcjeaXu23YL5OxIxFrN8Rn3NTFHa1djqZV1SnaL248ERYLm24OrhlerRXB4MXg__"
+              "id": 48695,
+              "original_name": "fase 1 coleta e prepara\u00e7\u00e3o de Dados.zip",
+              "filename": "768203c7ec5de43c0f1838c7291fc93a.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/768203c7ec5de43c0f1838c7291fc93a.zip?Expires=1773769790&Key-Pair-Id=K2B3OCIVN87WG8&Signature=EdjA4i2Y39I2YeANZECdh-gJdaOGDt7YiNrU9o3KCH54KAfYeLQtVe6NyvboDNyfbaeyqmpWfsCaQZJrxno8cryc~nTh828lEfV6YXxUTSBZ37uChMzV2i~KgvVj-7EcyDXGBx6ekA5nc5UaxgQ2u-R60~OcEMKec1wAL8FpgDbuyUpuEaj6UVoGtLCpvV8j0lz4Z-0jC7AOKd-ClK2p3Og~NCJkzw0o-ii04tk8Kw~qIn5KX2U-UU8iLjTfGfuu1Kgv5vfGjAzN07w8OckS8DiCklVx1E8lJKeusmZJuBdVUT~XE4j9EA7wG4fRKSSxuWZjZ~aOTAYiyPb-AF-Kew__"
             }
           ]
         }
       },
       {
-        "id": 322017,
-        "created_at": "2026-02-19T09:01:55.174Z",
+        "id": 327711,
+        "created_at": "2026-02-19T09:03:56.397Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -459,10 +519,10 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 6204,
-          "name": "GUILHERME LINDNER PESSOA",
-          "email": "glindnerp@gmail.com",
-          "avatar": null
+          "id": 5283,
+          "name": "RAFAEL OLIVEIRA DO NASCIMENTO",
+          "email": "rfl.nascimento00@gmail.com",
+          "avatar": "b372a48d60088c544f0403e292cff272.jpeg"
         },
         "supervisor": null
       }
@@ -471,28 +531,28 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 114352
+    "phase_id": 120046
   },
   {
-    "student_project_id": 69670,
+    "student_project_id": 72579,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 6164,
-      "name": "VICTOR PALMA",
-      "email": "victor.lindemeyer@gmail.com",
-      "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-      "enrollment_id": 6877,
-      "enrollment_hub_id": 43947,
-      "enrollment_ie": "26150490"
+      "id": 4876,
+      "name": "NAIARA LARISSA BORGES ZIMMERMANN",
+      "email": "naiaraborgesz09@gmail.com",
+      "avatar": "4b5f34e2219ffd9397f5152c19368e20.jpeg",
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 5488,
+      "enrollment_hub_id": 29477,
+      "enrollment_ie": "25151097"
     },
     "student_phase": {
-      "id": 114312,
+      "id": 120026,
       "phase_order": 1,
       "delivery_late": false,
       "delivery_resend": false,
-      "delivery_at_date": "2026-03-02T13:55:33.000Z",
+      "delivery_at_date": "2026-03-16T21:30:52.000Z",
       "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
       "release_date": "2026-03-24T03:00:00.000Z",
       "status": {
@@ -501,10 +561,10 @@
       },
       "attachments": [
         {
-          "id": 66998,
-          "original_name": "Projeto 1.zip",
-          "filename": "397d19b98afb0d2c34afb1d8df77e0a5.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/397d19b98afb0d2c34afb1d8df77e0a5.zip?Expires=1773765727&Key-Pair-Id=K2B3OCIVN87WG8&Signature=HDo2UwUy3UQJZHYZl2PHTDV6WaRiNfMYTfklEqQzeYQ97xNfxUwkDdvq4gkdyvb9bcnPmdJo7-6w0Uxp2ZTUJK9KxSbatKLDGM36hZbohQrc-IcA12ElsYJXdD-0-7rINsPkfiZogYpFIpeJEB7vO7cSnGKK346I8avoHr2cYvQNW2Fm37INVImbAXejBTdT4VaX6Qzv~c-5eBTZI38Nyq~nGL01eRkReg66etDkqEYQR1DpEEA2oWv3-rDSNOG35NZdmjZYjv9WNepgebHvRtIXKLRFX6gbAYD02U8giH318aP1UFDPxZYIopHeVseHyKusyz~kLZwvwy3G5Ot7pw__"
+          "id": 69871,
+          "original_name": "Fase1_NaiaraZimmermann_Coleta_e_prepara\u00e7\u00e3o_de_dados.zip",
+          "filename": "dae6227f5df2421e3535b5fbcc31f8e7.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dae6227f5df2421e3535b5fbcc31f8e7.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=pnAWRqFAzdX25rFMiWyvUFYd8ECBeYMZzj8f7k22YJ0qwD39Lk74jjIAM2uEqXx7MW9toqCPrtxOqn~lDrKJdakuGnHdfsMCLzZcbnH6L~IXpiEMwwE6YM3DwSP7XG6u5ybiD8BdgxW5sLY0bMLYXg6a9Wwnw8UhR2FDRohIv74G1~Alrp6bIvNLqMO8zrC5w6TfLA0TuPnW2BrOB0dEXChNhb4wUT4R6mUnOhljFCKwWjnVczppuFdAJW-gYNapf~0KiA5quNH-QZI0XhVZNHxJ695sz6FIICfA5iik~gLe8sF49INwDLmRNy0sm07O8n0dn4fBETqiD7ye3eGXfg__"
         }
       ]
     },
@@ -516,121 +576,156 @@
     },
     "criteria": [
       {
-        "id": 18359,
+        "id": 18686,
         "title": "Crit\u00e9rio 1",
-        "description": "Leitura e valida\u00e7\u00e3o dos dados de entrada",
-        "total_weight": 0.6,
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
         "dimensions": [
           {
-            "id": 38002,
-            "description": "Leitura e valida\u00e7\u00e3o dos dados corretas e em conformidade com o enunciado e com os dados sugeridos para teste, com c\u00f3digo organizado e leg\u00edvel",
-            "weight": 0.6
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
           },
           {
-            "id": 38003,
-            "description": "Leitura correta, com valida\u00e7\u00e3o mas sem oportunidade de redigita\u00e7\u00e3o dos dados incorretos ou em discord\u00e2ncia em alguns pontos com o enunciado. Ou leitura e valida\u00e7\u00e3o corretas mas com c\u00f3digo desorganizado e/ou ileg\u00edvel",
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
             "weight": 0.3
           },
           {
-            "id": 38004,
-            "description": "Leitura correta, mas sem valida\u00e7\u00e3o. C\u00f3digo desorganizado e/ou ileg\u00edvel ",
-            "weight": 0.2
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
           },
           {
-            "id": 38005,
-            "description": "Leitura incompleta ou incorreta. C\u00f3digo muito desorganizado e/ou ileg\u00edvel",
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18360,
+        "id": 18687,
         "title": "Crit\u00e9rio 2",
-        "description": "Temperatura m\u00e9dia m\u00e1xima anual ",
-        "total_weight": 0.6,
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
         "dimensions": [
           {
-            "id": 38006,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da temperatura m\u00e9dia anual ",
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
             "weight": 0.6
           },
           {
-            "id": 38007,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
             "weight": 0.3
           },
           {
-            "id": 38008,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18361,
-        "title": "Crit\u00e9rio 3",
-        "description": "Quantidade de meses escaldantes",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38009,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da quantidade de meses escaldantes",
-            "weight": 0.6
-          },
-          {
-            "id": 38010,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
-            "weight": 0.2
-          },
-          {
-            "id": 38011,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18362,
-        "title": "Crit\u00e9rio 4",
-        "description": "M\u00eas mais escaldante do ano",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38012,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas mais escaldante",
-            "weight": 0.6
-          },
-          {
-            "id": 38013,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo) ",
-            "weight": 0.2
-          },
-          {
-            "id": 38014,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18363,
+        "id": 18690,
         "title": "Crit\u00e9rio 5",
-        "description": "M\u00eas menos quente do ano",
+        "description": "Arquivo CSV Final  ",
         "total_weight": 0.6,
         "dimensions": [
           {
-            "id": 38015,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas menos quente ",
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
             "weight": 0.6
           },
           {
-            "id": 38016,
-            "description": "Defini\u00e7\u00e3o do m\u00eas menos quente ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo)",
-            "weight": 0.2
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
           },
           {
-            "id": 38017,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
             "weight": 0
           }
         ]
@@ -639,24 +734,19 @@
     "percentage_delay": 0.20000000000000004,
     "feedbacks": [
       {
-        "id": 304,
+        "id": 308,
         "title": "Fase 1",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente e implementou uma funcionalidade importante que permite ao usu\u00e1rio redigitar algum dado incorreto, com valida\u00e7\u00f5es entre temperaturas de -60 a +50 graus.</p>\n</li>\n<li>\n<p><strong>C\u00e1lculo da M\u00e9dia Anual:</strong> A m\u00e9dia da temperatura anual foi calculada corretamente, levando em considera\u00e7\u00e3o inclusive os meses menos escaldantes (temperaturas negativas).</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o de Meses Escaldantes:</strong> Voc\u00ea apresentou de forma correta a quantidade de meses escaldantes.</p>\n</li>\n<li>\n<p><strong>Apresenta\u00e7\u00e3o dos Meses:</strong> O m\u00eas mais quente e o m\u00eas mais frio foram apresentados por extenso, conforme solicitado, demonstrando aten\u00e7\u00e3o aos detalhes.</p>\n</li>\n</ul>\n<p>Pr\u00f3ximos Passos</p>\n<p>Na <strong>Fase 2</strong>, voc\u00ea aprender\u00e1 sobre estruturas de dados, outras estruturas de repeti\u00e7\u00e3o, e como trabalhar com gr\u00e1ficos! Essas novas habilidades permitir\u00e3o que voc\u00ea crie programas ainda mais eficientes e visualmente interessantes.</p>\n<p>Continue com esse empenho, e voc\u00ea ver\u00e1 como seu conhecimento em programa\u00e7\u00e3o se expandir\u00e1. Estamos ansiosos para ver suas pr\u00f3ximas entregas!</p>\n<p>Vamos em frente!</p>"
-      },
-      {
-        "id": 305,
-        "title": "Fase 2",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente utilizando as estruturas de dados solicitadas.</p>\n</li>\n<li>\n<p><strong>Exibi\u00e7\u00e3o dos Dados:</strong> A exibi\u00e7\u00e3o dos dados em tela foi feita de forma correta, permitindo a sele\u00e7\u00e3o de per\u00edodos e mostrando as op\u00e7\u00f5es solicitadas: 1) todos os dados, 2) apenas os de precipita\u00e7\u00e3o, 3) apenas os de temperatura, ou 4) apenas os de umidade e vento para o per\u00edodo informado.</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o do M\u00eas Mais Chuvoso:</strong> Voc\u00ea identificou corretamente o m\u00eas mais chuvoso de todo o arquivo.</p>\n</li>\n<li>\n<p><strong>M\u00e9dia de Temperatura M\u00ednima:</strong> A identifica\u00e7\u00e3o do m\u00eas e sua m\u00e9dia de temperatura m\u00ednima para cada ano nos \u00faltimos 11 anos foi apresentada de forma correta, assim como a m\u00e9dia geral para todo esse per\u00edodo.</p>\n</li>\n<li>\n<p><strong>Gr\u00e1fico:</strong> O gr\u00e1fico apresentou corretamente a m\u00e9dia da temperatura m\u00ednima dos \u00faltimos 11 anos.</p>\n</li>\n</ul>\n<p><br />Continue com esse \u00f3timo trabalho! Sua dedica\u00e7\u00e3o est\u00e1 claramente refletida em suas entregas, e estamos animados para ver como voc\u00ea aplicar\u00e1 esses novos conhecimentos.</p>"
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
       }
     ],
     "history": [
       {
-        "id": 330971,
-        "created_at": "2026-03-02T16:55:33.974Z",
+        "id": 335460,
+        "created_at": "2026-03-17T00:30:52.563Z",
         "delivered_late": false,
         "delivered_resend": false,
-        "submission_date": "2026-03-02T16:55:33.000Z",
-        "last_submission_date": "2026-03-02T16:55:33.000Z",
+        "submission_date": "2026-03-17T00:30:52.000Z",
+        "last_submission_date": "2026-03-17T00:30:52.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -664,27 +754,27 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 6164,
-          "name": "VICTOR PALMA",
-          "email": "victor.lindemeyer@gmail.com",
-          "avatar": null
+          "id": 4876,
+          "name": "NAIARA LARISSA BORGES ZIMMERMANN",
+          "email": "naiaraborgesz09@gmail.com",
+          "avatar": "4b5f34e2219ffd9397f5152c19368e20.jpeg"
         },
         "supervisor": null,
         "student_answer_history": {
           "form_answers": [],
           "attachments": [
             {
-              "id": 45608,
-              "original_name": "Projeto 1.zip",
-              "filename": "397d19b98afb0d2c34afb1d8df77e0a5.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/397d19b98afb0d2c34afb1d8df77e0a5.zip?Expires=1773765727&Key-Pair-Id=K2B3OCIVN87WG8&Signature=HDo2UwUy3UQJZHYZl2PHTDV6WaRiNfMYTfklEqQzeYQ97xNfxUwkDdvq4gkdyvb9bcnPmdJo7-6w0Uxp2ZTUJK9KxSbatKLDGM36hZbohQrc-IcA12ElsYJXdD-0-7rINsPkfiZogYpFIpeJEB7vO7cSnGKK346I8avoHr2cYvQNW2Fm37INVImbAXejBTdT4VaX6Qzv~c-5eBTZI38Nyq~nGL01eRkReg66etDkqEYQR1DpEEA2oWv3-rDSNOG35NZdmjZYjv9WNepgebHvRtIXKLRFX6gbAYD02U8giH318aP1UFDPxZYIopHeVseHyKusyz~kLZwvwy3G5Ot7pw__"
+              "id": 48482,
+              "original_name": "Fase1_NaiaraZimmermann_Coleta_e_prepara\u00e7\u00e3o_de_dados.zip",
+              "filename": "dae6227f5df2421e3535b5fbcc31f8e7.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dae6227f5df2421e3535b5fbcc31f8e7.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=pnAWRqFAzdX25rFMiWyvUFYd8ECBeYMZzj8f7k22YJ0qwD39Lk74jjIAM2uEqXx7MW9toqCPrtxOqn~lDrKJdakuGnHdfsMCLzZcbnH6L~IXpiEMwwE6YM3DwSP7XG6u5ybiD8BdgxW5sLY0bMLYXg6a9Wwnw8UhR2FDRohIv74G1~Alrp6bIvNLqMO8zrC5w6TfLA0TuPnW2BrOB0dEXChNhb4wUT4R6mUnOhljFCKwWjnVczppuFdAJW-gYNapf~0KiA5quNH-QZI0XhVZNHxJ695sz6FIICfA5iik~gLe8sF49INwDLmRNy0sm07O8n0dn4fBETqiD7ye3eGXfg__"
             }
           ]
         }
       },
       {
-        "id": 321977,
-        "created_at": "2026-02-19T09:01:54.365Z",
+        "id": 327691,
+        "created_at": "2026-02-19T09:03:55.885Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -696,10 +786,10 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 6164,
-          "name": "VICTOR PALMA",
-          "email": "victor.lindemeyer@gmail.com",
-          "avatar": null
+          "id": 4876,
+          "name": "NAIARA LARISSA BORGES ZIMMERMANN",
+          "email": "naiaraborgesz09@gmail.com",
+          "avatar": "4b5f34e2219ffd9397f5152c19368e20.jpeg"
         },
         "supervisor": null
       }
@@ -708,28 +798,28 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 114312
+    "phase_id": 120026
   },
   {
-    "student_project_id": 69508,
+    "student_project_id": 72565,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 5745,
-      "name": "EDUARDO ABIB FAUSTINO",
-      "email": "abibeduardo86@gmail.com",
+      "id": 3880,
+      "name": "FREDERICO GON\u00c7ALVES NUNES",
+      "email": "frednunes2807@gmail.com",
       "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-      "enrollment_id": 6431,
-      "enrollment_hub_id": 35262,
-      "enrollment_ie": "25250657"
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 4439,
+      "enrollment_hub_id": 19563,
+      "enrollment_ie": "24250831"
     },
     "student_phase": {
-      "id": 113988,
+      "id": 120012,
       "phase_order": 1,
       "delivery_late": false,
       "delivery_resend": false,
-      "delivery_at_date": "2026-02-19T17:26:35.000Z",
+      "delivery_at_date": "2026-03-16T20:50:29.000Z",
       "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
       "release_date": "2026-03-24T03:00:00.000Z",
       "status": {
@@ -738,10 +828,10 @@
       },
       "attachments": [
         {
-          "id": 66831,
-          "original_name": "Proj_fase1 (2).zip",
-          "filename": "fb04efb874459e41985d3361a3ecb490.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/fb04efb874459e41985d3361a3ecb490.zip?Expires=1773765728&Key-Pair-Id=K2B3OCIVN87WG8&Signature=W8Q2oE3V-aJ5XuMxBWqk71QpDHhiqGGdLZ~WwzjQJxhOaCWiCdEQ7deWDbszwdjJsnIsYXAvXj2d0J6g3RMWeiZx6CvUhMoZ6d~~lQQ6BqHXZdhb2A-2yUeVJaWkamywMjmQPOWRPqshQ3Z7~bjSc4fg002iCTqZ0m5dj5vYI-7fOtPsU3fy6HEZhNIKguuqW-CYcS~56G38p3yOLj3fx4tc5ZOILQUAAGzMo4840ySLtVFejOD5q70nQTOtyRmD~ANa1J1Eme7aY0WENlLuFqgIQiZyzLyShxhqcg6svQuZARJim~3OAWFxo9Kd9IvHc8g5zxQ1rDpSsTYuTYV2AA__"
+          "id": 69747,
+          "original_name": "fase01.zip",
+          "filename": "73b573b348630d21a356c2a839831b31.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/73b573b348630d21a356c2a839831b31.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=OPVX4c-~RSWLHF8m1P1Gw82Fr7ca2X0sVufmLrq9zD4y~1DbLHqoAQ4SYA9C2l0p6ANxwPyOAc-tlBcCcgEi8DsB~0kIHrRYtSUa6Phd9-DbNEttB3L3DzYSnSQCYhf39AnQ17nsA8imWON8TxPOIZ6BsOEY8JN1ZZ862KIrgeSO1YY1Pll6YsAZUWg0SM3hj3l2rSPSu3qce6xwutuswS-NrwR0a5mjpqykmm-LAxK1Jombxe1fsLAAsK3F3fGlCWCazeAGuX~EDULFRyRDIJ7LiJHQ2r2lG6iTwnGxIDfidykSTvCK8WWXAN3DRLqcgAgbgJAnDwJtiACLwdHJ-Q__"
         }
       ]
     },
@@ -753,121 +843,156 @@
     },
     "criteria": [
       {
-        "id": 18359,
+        "id": 18686,
         "title": "Crit\u00e9rio 1",
-        "description": "Leitura e valida\u00e7\u00e3o dos dados de entrada",
-        "total_weight": 0.6,
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
         "dimensions": [
           {
-            "id": 38002,
-            "description": "Leitura e valida\u00e7\u00e3o dos dados corretas e em conformidade com o enunciado e com os dados sugeridos para teste, com c\u00f3digo organizado e leg\u00edvel",
-            "weight": 0.6
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
           },
           {
-            "id": 38003,
-            "description": "Leitura correta, com valida\u00e7\u00e3o mas sem oportunidade de redigita\u00e7\u00e3o dos dados incorretos ou em discord\u00e2ncia em alguns pontos com o enunciado. Ou leitura e valida\u00e7\u00e3o corretas mas com c\u00f3digo desorganizado e/ou ileg\u00edvel",
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
             "weight": 0.3
           },
           {
-            "id": 38004,
-            "description": "Leitura correta, mas sem valida\u00e7\u00e3o. C\u00f3digo desorganizado e/ou ileg\u00edvel ",
-            "weight": 0.2
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
           },
           {
-            "id": 38005,
-            "description": "Leitura incompleta ou incorreta. C\u00f3digo muito desorganizado e/ou ileg\u00edvel",
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18360,
+        "id": 18687,
         "title": "Crit\u00e9rio 2",
-        "description": "Temperatura m\u00e9dia m\u00e1xima anual ",
-        "total_weight": 0.6,
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
         "dimensions": [
           {
-            "id": 38006,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da temperatura m\u00e9dia anual ",
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
             "weight": 0.6
           },
           {
-            "id": 38007,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
             "weight": 0.3
           },
           {
-            "id": 38008,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18361,
-        "title": "Crit\u00e9rio 3",
-        "description": "Quantidade de meses escaldantes",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38009,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da quantidade de meses escaldantes",
-            "weight": 0.6
-          },
-          {
-            "id": 38010,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
-            "weight": 0.2
-          },
-          {
-            "id": 38011,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18362,
-        "title": "Crit\u00e9rio 4",
-        "description": "M\u00eas mais escaldante do ano",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38012,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas mais escaldante",
-            "weight": 0.6
-          },
-          {
-            "id": 38013,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo) ",
-            "weight": 0.2
-          },
-          {
-            "id": 38014,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18363,
+        "id": 18690,
         "title": "Crit\u00e9rio 5",
-        "description": "M\u00eas menos quente do ano",
+        "description": "Arquivo CSV Final  ",
         "total_weight": 0.6,
         "dimensions": [
           {
-            "id": 38015,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas menos quente ",
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
             "weight": 0.6
           },
           {
-            "id": 38016,
-            "description": "Defini\u00e7\u00e3o do m\u00eas menos quente ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo)",
-            "weight": 0.2
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
           },
           {
-            "id": 38017,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
             "weight": 0
           }
         ]
@@ -876,24 +1001,19 @@
     "percentage_delay": 0.20000000000000004,
     "feedbacks": [
       {
-        "id": 304,
+        "id": 308,
         "title": "Fase 1",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente e implementou uma funcionalidade importante que permite ao usu\u00e1rio redigitar algum dado incorreto, com valida\u00e7\u00f5es entre temperaturas de -60 a +50 graus.</p>\n</li>\n<li>\n<p><strong>C\u00e1lculo da M\u00e9dia Anual:</strong> A m\u00e9dia da temperatura anual foi calculada corretamente, levando em considera\u00e7\u00e3o inclusive os meses menos escaldantes (temperaturas negativas).</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o de Meses Escaldantes:</strong> Voc\u00ea apresentou de forma correta a quantidade de meses escaldantes.</p>\n</li>\n<li>\n<p><strong>Apresenta\u00e7\u00e3o dos Meses:</strong> O m\u00eas mais quente e o m\u00eas mais frio foram apresentados por extenso, conforme solicitado, demonstrando aten\u00e7\u00e3o aos detalhes.</p>\n</li>\n</ul>\n<p>Pr\u00f3ximos Passos</p>\n<p>Na <strong>Fase 2</strong>, voc\u00ea aprender\u00e1 sobre estruturas de dados, outras estruturas de repeti\u00e7\u00e3o, e como trabalhar com gr\u00e1ficos! Essas novas habilidades permitir\u00e3o que voc\u00ea crie programas ainda mais eficientes e visualmente interessantes.</p>\n<p>Continue com esse empenho, e voc\u00ea ver\u00e1 como seu conhecimento em programa\u00e7\u00e3o se expandir\u00e1. Estamos ansiosos para ver suas pr\u00f3ximas entregas!</p>\n<p>Vamos em frente!</p>"
-      },
-      {
-        "id": 305,
-        "title": "Fase 2",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente utilizando as estruturas de dados solicitadas.</p>\n</li>\n<li>\n<p><strong>Exibi\u00e7\u00e3o dos Dados:</strong> A exibi\u00e7\u00e3o dos dados em tela foi feita de forma correta, permitindo a sele\u00e7\u00e3o de per\u00edodos e mostrando as op\u00e7\u00f5es solicitadas: 1) todos os dados, 2) apenas os de precipita\u00e7\u00e3o, 3) apenas os de temperatura, ou 4) apenas os de umidade e vento para o per\u00edodo informado.</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o do M\u00eas Mais Chuvoso:</strong> Voc\u00ea identificou corretamente o m\u00eas mais chuvoso de todo o arquivo.</p>\n</li>\n<li>\n<p><strong>M\u00e9dia de Temperatura M\u00ednima:</strong> A identifica\u00e7\u00e3o do m\u00eas e sua m\u00e9dia de temperatura m\u00ednima para cada ano nos \u00faltimos 11 anos foi apresentada de forma correta, assim como a m\u00e9dia geral para todo esse per\u00edodo.</p>\n</li>\n<li>\n<p><strong>Gr\u00e1fico:</strong> O gr\u00e1fico apresentou corretamente a m\u00e9dia da temperatura m\u00ednima dos \u00faltimos 11 anos.</p>\n</li>\n</ul>\n<p><br />Continue com esse \u00f3timo trabalho! Sua dedica\u00e7\u00e3o est\u00e1 claramente refletida em suas entregas, e estamos animados para ver como voc\u00ea aplicar\u00e1 esses novos conhecimentos.</p>"
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
       }
     ],
     "history": [
       {
-        "id": 329950,
-        "created_at": "2026-02-19T20:26:35.984Z",
+        "id": 335298,
+        "created_at": "2026-03-16T23:50:29.677Z",
         "delivered_late": false,
         "delivered_resend": false,
-        "submission_date": "2026-02-19T20:26:35.000Z",
-        "last_submission_date": "2026-02-19T20:26:35.000Z",
+        "submission_date": "2026-03-16T23:50:29.000Z",
+        "last_submission_date": "2026-03-16T23:50:29.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -901,9 +1021,9 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 5745,
-          "name": "EDUARDO ABIB FAUSTINO",
-          "email": "abibeduardo86@gmail.com",
+          "id": 3880,
+          "name": "FREDERICO GON\u00c7ALVES NUNES",
+          "email": "frednunes2807@gmail.com",
           "avatar": null
         },
         "supervisor": null,
@@ -911,17 +1031,17 @@
           "form_answers": [],
           "attachments": [
             {
-              "id": 45441,
-              "original_name": "Proj_fase1 (2).zip",
-              "filename": "fb04efb874459e41985d3361a3ecb490.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/fb04efb874459e41985d3361a3ecb490.zip?Expires=1773765728&Key-Pair-Id=K2B3OCIVN87WG8&Signature=W8Q2oE3V-aJ5XuMxBWqk71QpDHhiqGGdLZ~WwzjQJxhOaCWiCdEQ7deWDbszwdjJsnIsYXAvXj2d0J6g3RMWeiZx6CvUhMoZ6d~~lQQ6BqHXZdhb2A-2yUeVJaWkamywMjmQPOWRPqshQ3Z7~bjSc4fg002iCTqZ0m5dj5vYI-7fOtPsU3fy6HEZhNIKguuqW-CYcS~56G38p3yOLj3fx4tc5ZOILQUAAGzMo4840ySLtVFejOD5q70nQTOtyRmD~ANa1J1Eme7aY0WENlLuFqgIQiZyzLyShxhqcg6svQuZARJim~3OAWFxo9Kd9IvHc8g5zxQ1rDpSsTYuTYV2AA__"
+              "id": 48358,
+              "original_name": "fase01.zip",
+              "filename": "73b573b348630d21a356c2a839831b31.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/73b573b348630d21a356c2a839831b31.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=OPVX4c-~RSWLHF8m1P1Gw82Fr7ca2X0sVufmLrq9zD4y~1DbLHqoAQ4SYA9C2l0p6ANxwPyOAc-tlBcCcgEi8DsB~0kIHrRYtSUa6Phd9-DbNEttB3L3DzYSnSQCYhf39AnQ17nsA8imWON8TxPOIZ6BsOEY8JN1ZZ862KIrgeSO1YY1Pll6YsAZUWg0SM3hj3l2rSPSu3qce6xwutuswS-NrwR0a5mjpqykmm-LAxK1Jombxe1fsLAAsK3F3fGlCWCazeAGuX~EDULFRyRDIJ7LiJHQ2r2lG6iTwnGxIDfidykSTvCK8WWXAN3DRLqcgAgbgJAnDwJtiACLwdHJ-Q__"
             }
           ]
         }
       },
       {
-        "id": 321653,
-        "created_at": "2026-02-19T09:01:47.724Z",
+        "id": 327677,
+        "created_at": "2026-02-19T09:03:55.507Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -933,9 +1053,9 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 5745,
-          "name": "EDUARDO ABIB FAUSTINO",
-          "email": "abibeduardo86@gmail.com",
+          "id": 3880,
+          "name": "FREDERICO GON\u00c7ALVES NUNES",
+          "email": "frednunes2807@gmail.com",
           "avatar": null
         },
         "supervisor": null
@@ -945,40 +1065,40 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 113988
+    "phase_id": 120012
   },
   {
-    "student_project_id": 69639,
+    "student_project_id": 72577,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 6090,
-      "name": "MATHEUS DE AZEVEDO",
-      "email": "matheusvieroazevedo@gmail.com",
+      "id": 4855,
+      "name": "MONIQUE SILVA DE LEON VARGAS",
+      "email": "mooniiquueeniick@icloud.com",
       "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em An\u00e1lise e Desenvolvimento de Sistemas",
-      "enrollment_id": 6801,
-      "enrollment_hub_id": 42612,
-      "enrollment_ie": "26150393"
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 5466,
+      "enrollment_hub_id": 29374,
+      "enrollment_ie": "25151067"
     },
     "student_phase": {
-      "id": 114250,
+      "id": 120024,
       "phase_order": 1,
       "delivery_late": false,
-      "delivery_resend": true,
-      "delivery_at_date": "2026-03-14T19:19:37.000Z",
-      "deadline_evaluation_date": "2026-04-22T03:00:00.000Z",
-      "release_date": "2026-04-23T03:00:00.000Z",
+      "delivery_resend": false,
+      "delivery_at_date": "2026-03-16T20:31:03.000Z",
+      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
+      "release_date": "2026-03-24T03:00:00.000Z",
       "status": {
         "id": 4,
         "name": "AGUARDANDO_AVALIACAO"
       },
       "attachments": [
         {
-          "id": 70175,
-          "original_name": "matheus_viero_de_azevedo.zip",
-          "filename": "29b2360d2ac7219dd691ad27b4e3dfca.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/29b2360d2ac7219dd691ad27b4e3dfca.zip?Expires=1773765729&Key-Pair-Id=K2B3OCIVN87WG8&Signature=XH~mz6alEHXSn6rtdq~f53GK~XFmIE76g4uiDz50n4BoBqDF8UVzTq3nbQmwwejVnkbe9V~K4rGrSA5yi4Qi7WrgNHRAn9HfONx~AWzbq5eSN491rYYagW0Aw6Yg7T4Jo0AyNVcDQzHfU-23bmxs4-sRvD3Ry-KH1GB13VgbGOyYFfHJay-qhvNry0z8MY~vHtFpgCH-bIThnenhrphHpXV-2RgFsxnSV3ngTC~yVejodOmQSLzOJ7-K-h3NovdMhTz901kSoDZCuk-9NhhpvaotOMUZJW17i6L7a-521xVyWBvku5jatIPhIiHUMs4PptIfFPiNGqNQS0THZtFrPg__"
+          "id": 69688,
+          "original_name": "Coleta e Prepaa\u00e7\u00e3o de dados - Fase 1.zip",
+          "filename": "c4ac41d0f82cc94970636f3c2119a7b8.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/c4ac41d0f82cc94970636f3c2119a7b8.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=SrxmnJScQ9k4wkoA~GpsA0WuyFzzu3MWK0Y4QShM46DoDiNtIGD21yfX3FHmTspMmWeWoqo9ZFB~kYmfcEU1zeU3eNWP79KyCeTf2wPFcRbFvz9X6dyfeI42GukJX-v2I7f92NHZ6chmMp-BRDGvZnWQcNA3oBpJ2btWVabcd1JOsHTvifx3fevA0pZKwkmJOqe-DyqCfYLmGkxLAUSZ13W8Frx4qw5qAHt5-mMwUnxFiFVEz0aNS2XrAgE2KDPUhadLokA18QyAlj~NY6cWK-GaflRNVUB9XdKtXIvniSiOmktfFxwFgnga7w5PmU7F19QPeghDl1q39GIfMWEvcA__"
         }
       ]
     },
@@ -990,121 +1110,156 @@
     },
     "criteria": [
       {
-        "id": 18359,
+        "id": 18686,
         "title": "Crit\u00e9rio 1",
-        "description": "Leitura e valida\u00e7\u00e3o dos dados de entrada",
-        "total_weight": 0.6,
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
         "dimensions": [
           {
-            "id": 38002,
-            "description": "Leitura e valida\u00e7\u00e3o dos dados corretas e em conformidade com o enunciado e com os dados sugeridos para teste, com c\u00f3digo organizado e leg\u00edvel",
-            "weight": 0.6
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
           },
           {
-            "id": 38003,
-            "description": "Leitura correta, com valida\u00e7\u00e3o mas sem oportunidade de redigita\u00e7\u00e3o dos dados incorretos ou em discord\u00e2ncia em alguns pontos com o enunciado. Ou leitura e valida\u00e7\u00e3o corretas mas com c\u00f3digo desorganizado e/ou ileg\u00edvel",
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
             "weight": 0.3
           },
           {
-            "id": 38004,
-            "description": "Leitura correta, mas sem valida\u00e7\u00e3o. C\u00f3digo desorganizado e/ou ileg\u00edvel ",
-            "weight": 0.2
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
           },
           {
-            "id": 38005,
-            "description": "Leitura incompleta ou incorreta. C\u00f3digo muito desorganizado e/ou ileg\u00edvel",
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18360,
+        "id": 18687,
         "title": "Crit\u00e9rio 2",
-        "description": "Temperatura m\u00e9dia m\u00e1xima anual ",
-        "total_weight": 0.6,
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
         "dimensions": [
           {
-            "id": 38006,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da temperatura m\u00e9dia anual ",
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
             "weight": 0.6
           },
           {
-            "id": 38007,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
             "weight": 0.3
           },
           {
-            "id": 38008,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
             "weight": 0
           }
         ]
       },
       {
-        "id": 18361,
-        "title": "Crit\u00e9rio 3",
-        "description": "Quantidade de meses escaldantes",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38009,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o corretos da quantidade de meses escaldantes",
-            "weight": 0.6
-          },
-          {
-            "id": 38010,
-            "description": "C\u00e1lculo ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica",
-            "weight": 0.2
-          },
-          {
-            "id": 38011,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18362,
-        "title": "Crit\u00e9rio 4",
-        "description": "M\u00eas mais escaldante do ano",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 38012,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas mais escaldante",
-            "weight": 0.6
-          },
-          {
-            "id": 38013,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo) ",
-            "weight": 0.2
-          },
-          {
-            "id": 38014,
-            "description": "Defini\u00e7\u00e3o do m\u00eas mais escaldante e exibi\u00e7\u00e3o incorreta",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18363,
+        "id": 18690,
         "title": "Crit\u00e9rio 5",
-        "description": "M\u00eas menos quente do ano",
+        "description": "Arquivo CSV Final  ",
         "total_weight": 0.6,
         "dimensions": [
           {
-            "id": 38015,
-            "description": "L\u00f3gica e exibi\u00e7\u00e3o corretas do m\u00eas (por extenso) de m\u00eas menos quente ",
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
             "weight": 0.6
           },
           {
-            "id": 38016,
-            "description": "Defini\u00e7\u00e3o do m\u00eas menos quente ou exibi\u00e7\u00e3o com algum erro de l\u00f3gica ou incompleta (n\u00e3o ser por extenso ou  ficar exibindo a cada itera\u00e7\u00e3o, por exemplo)",
-            "weight": 0.2
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
           },
           {
-            "id": 38017,
-            "description": "C\u00e1lculo e exibi\u00e7\u00e3o incorreta",
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
             "weight": 0
           }
         ]
@@ -1113,24 +1268,19 @@
     "percentage_delay": 0.20000000000000004,
     "feedbacks": [
       {
-        "id": 304,
+        "id": 308,
         "title": "Fase 1",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente e implementou uma funcionalidade importante que permite ao usu\u00e1rio redigitar algum dado incorreto, com valida\u00e7\u00f5es entre temperaturas de -60 a +50 graus.</p>\n</li>\n<li>\n<p><strong>C\u00e1lculo da M\u00e9dia Anual:</strong> A m\u00e9dia da temperatura anual foi calculada corretamente, levando em considera\u00e7\u00e3o inclusive os meses menos escaldantes (temperaturas negativas).</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o de Meses Escaldantes:</strong> Voc\u00ea apresentou de forma correta a quantidade de meses escaldantes.</p>\n</li>\n<li>\n<p><strong>Apresenta\u00e7\u00e3o dos Meses:</strong> O m\u00eas mais quente e o m\u00eas mais frio foram apresentados por extenso, conforme solicitado, demonstrando aten\u00e7\u00e3o aos detalhes.</p>\n</li>\n</ul>\n<p>Pr\u00f3ximos Passos</p>\n<p>Na <strong>Fase 2</strong>, voc\u00ea aprender\u00e1 sobre estruturas de dados, outras estruturas de repeti\u00e7\u00e3o, e como trabalhar com gr\u00e1ficos! Essas novas habilidades permitir\u00e3o que voc\u00ea crie programas ainda mais eficientes e visualmente interessantes.</p>\n<p>Continue com esse empenho, e voc\u00ea ver\u00e1 como seu conhecimento em programa\u00e7\u00e3o se expandir\u00e1. Estamos ansiosos para ver suas pr\u00f3ximas entregas!</p>\n<p>Vamos em frente!</p>"
-      },
-      {
-        "id": 305,
-        "title": "Fase 2",
-        "text": "<p><strong>Parab\u00e9ns!</strong></p>\n<p>Voc\u00ea conseguiu entregar todas as etapas do trabalho de forma correta. Saliento os seguintes pontos de destaque no seu trabalho:</p>\n<ul>\n<li>\n<p><strong>Leitura dos Dados:</strong> Voc\u00ea realizou a leitura dos dados corretamente utilizando as estruturas de dados solicitadas.</p>\n</li>\n<li>\n<p><strong>Exibi\u00e7\u00e3o dos Dados:</strong> A exibi\u00e7\u00e3o dos dados em tela foi feita de forma correta, permitindo a sele\u00e7\u00e3o de per\u00edodos e mostrando as op\u00e7\u00f5es solicitadas: 1) todos os dados, 2) apenas os de precipita\u00e7\u00e3o, 3) apenas os de temperatura, ou 4) apenas os de umidade e vento para o per\u00edodo informado.</p>\n</li>\n<li>\n<p><strong>Identifica\u00e7\u00e3o do M\u00eas Mais Chuvoso:</strong> Voc\u00ea identificou corretamente o m\u00eas mais chuvoso de todo o arquivo.</p>\n</li>\n<li>\n<p><strong>M\u00e9dia de Temperatura M\u00ednima:</strong> A identifica\u00e7\u00e3o do m\u00eas e sua m\u00e9dia de temperatura m\u00ednima para cada ano nos \u00faltimos 11 anos foi apresentada de forma correta, assim como a m\u00e9dia geral para todo esse per\u00edodo.</p>\n</li>\n<li>\n<p><strong>Gr\u00e1fico:</strong> O gr\u00e1fico apresentou corretamente a m\u00e9dia da temperatura m\u00ednima dos \u00faltimos 11 anos.</p>\n</li>\n</ul>\n<p><br />Continue com esse \u00f3timo trabalho! Sua dedica\u00e7\u00e3o est\u00e1 claramente refletida em suas entregas, e estamos animados para ver como voc\u00ea aplicar\u00e1 esses novos conhecimentos.</p>"
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
       }
     ],
     "history": [
       {
-        "id": 335808,
-        "created_at": "2026-03-17T02:01:28.940Z",
+        "id": 335234,
+        "created_at": "2026-03-16T23:31:03.392Z",
         "delivered_late": false,
-        "delivered_resend": true,
-        "submission_date": null,
-        "last_submission_date": "2026-03-17T02:01:28.000Z",
+        "delivered_resend": false,
+        "submission_date": "2026-03-16T23:31:03.000Z",
+        "last_submission_date": "2026-03-16T23:31:03.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -1138,9 +1288,9 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 6090,
-          "name": "MATHEUS DE AZEVEDO",
-          "email": "matheusvieroazevedo@gmail.com",
+          "id": 4855,
+          "name": "MONIQUE SILVA DE LEON VARGAS",
+          "email": "mooniiquueeniick@icloud.com",
           "avatar": null
         },
         "supervisor": null,
@@ -1148,85 +1298,17 @@
           "form_answers": [],
           "attachments": [
             {
-              "id": 48786,
-              "original_name": "matheus_viero_de_azevedo.zip",
-              "filename": "29b2360d2ac7219dd691ad27b4e3dfca.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/29b2360d2ac7219dd691ad27b4e3dfca.zip?Expires=1773765729&Key-Pair-Id=K2B3OCIVN87WG8&Signature=XH~mz6alEHXSn6rtdq~f53GK~XFmIE76g4uiDz50n4BoBqDF8UVzTq3nbQmwwejVnkbe9V~K4rGrSA5yi4Qi7WrgNHRAn9HfONx~AWzbq5eSN491rYYagW0Aw6Yg7T4Jo0AyNVcDQzHfU-23bmxs4-sRvD3Ry-KH1GB13VgbGOyYFfHJay-qhvNry0z8MY~vHtFpgCH-bIThnenhrphHpXV-2RgFsxnSV3ngTC~yVejodOmQSLzOJ7-K-h3NovdMhTz901kSoDZCuk-9NhhpvaotOMUZJW17i6L7a-521xVyWBvku5jatIPhIiHUMs4PptIfFPiNGqNQS0THZtFrPg__"
+              "id": 48299,
+              "original_name": "Coleta e Prepaa\u00e7\u00e3o de dados - Fase 1.zip",
+              "filename": "c4ac41d0f82cc94970636f3c2119a7b8.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/c4ac41d0f82cc94970636f3c2119a7b8.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=SrxmnJScQ9k4wkoA~GpsA0WuyFzzu3MWK0Y4QShM46DoDiNtIGD21yfX3FHmTspMmWeWoqo9ZFB~kYmfcEU1zeU3eNWP79KyCeTf2wPFcRbFvz9X6dyfeI42GukJX-v2I7f92NHZ6chmMp-BRDGvZnWQcNA3oBpJ2btWVabcd1JOsHTvifx3fevA0pZKwkmJOqe-DyqCfYLmGkxLAUSZ13W8Frx4qw5qAHt5-mMwUnxFiFVEz0aNS2XrAgE2KDPUhadLokA18QyAlj~NY6cWK-GaflRNVUB9XdKtXIvniSiOmktfFxwFgnga7w5PmU7F19QPeghDl1q39GIfMWEvcA__"
             }
           ]
         }
       },
       {
-        "id": 334359,
-        "created_at": "2026-03-16T14:09:30.308Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": null,
-        "last_submission_date": null,
-        "evaluation_date": null,
-        "evaluation_correction": {
-          "id": 140322,
-          "feedback": "<p>Liberado.</p>",
-          "observation": "<p>Pode enviar novamente?</p>",
-          "phase_note": null,
-          "release_feedback": false,
-          "extraordinary_send": true,
-          "calculation_delay": false,
-          "attachments": [],
-          "feedback_count": 1
-        },
-        "status": {
-          "id": 15,
-          "name": "ABERTO_PRAZO_EXTRAORDINARIO"
-        },
-        "student": {
-          "id": 6090,
-          "name": "MATHEUS DE AZEVEDO",
-          "email": "matheusvieroazevedo@gmail.com",
-          "avatar": null
-        },
-        "supervisor": {
-          "id": 52,
-          "name": "Gustavo Monti Rocha",
-          "avatar": "",
-          "email": "gustavo.rocha@pucrs.br"
-        }
-      },
-      {
-        "id": 333168,
-        "created_at": "2026-03-14T22:19:38.729Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": "2026-03-14T22:19:37.000Z",
-        "last_submission_date": "2026-03-14T22:19:37.000Z",
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 4,
-          "name": "AGUARDANDO_AVALIACAO"
-        },
-        "student": {
-          "id": 6090,
-          "name": "MATHEUS DE AZEVEDO",
-          "email": "matheusvieroazevedo@gmail.com",
-          "avatar": null
-        },
-        "supervisor": null,
-        "student_answer_history": {
-          "form_answers": [],
-          "attachments": [
-            {
-              "id": 46741,
-              "original_name": "MatheusVieroAzevedo.zip",
-              "filename": "73f5d64cba77e81dcd29aed5fccae4a1.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/73f5d64cba77e81dcd29aed5fccae4a1.zip?Expires=1773765729&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ohpc3Y49S7cTMP-4bvr7prw3KuAJ25C6luhvkDKwXUwcq9l1B-wd0SAEkCaTVrVvdB34ZcLkpT11veA-3ULJr4ZiVB~dQT3KbTF3~uSH4j~vU29tZIKwsspVxwU9aeoUUxdoGQurBs-Du9fijMAU1Kk5IzsOxkYKIaooOWeea26ubRfmzTl81FnG8Xd0Trn3eZ-ahyG1kkrtxpHqv161BVrbHdFtdRA7Vz9xJN3uAxbFzgGmgquMftNl~A-2Z8u4KMvWC1X~nHR5Nt0BwEw3OXnV54U0cdp2DiRMkhdQe5WWGNV7cHxYLNlLKIKgdmnPEtrYmVzZcHAluT3nCq1xlg__"
-            }
-          ]
-        }
-      },
-      {
-        "id": 321915,
-        "created_at": "2026-02-19T09:01:53.089Z",
+        "id": 327689,
+        "created_at": "2026-02-19T09:03:55.760Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -1238,9 +1320,9 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 6090,
-          "name": "MATHEUS DE AZEVEDO",
-          "email": "matheusvieroazevedo@gmail.com",
+          "id": 4855,
+          "name": "MONIQUE SILVA DE LEON VARGAS",
+          "email": "mooniiquueeniick@icloud.com",
           "avatar": null
         },
         "supervisor": null
@@ -1250,6 +1332,540 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 114250
+    "phase_id": 120024
+  },
+  {
+    "student_project_id": 72567,
+    "student_project_title": null,
+    "project_status": true,
+    "student": {
+      "id": 4250,
+      "name": "LUCAS GIACOMINI DUARTE",
+      "email": "lucasgiacodu@gmail.com",
+      "avatar": null,
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 4847,
+      "enrollment_hub_id": 25988,
+      "enrollment_ie": "25150381"
+    },
+    "student_phase": {
+      "id": 120014,
+      "phase_order": 1,
+      "delivery_late": false,
+      "delivery_resend": false,
+      "delivery_at_date": "2026-03-16T19:21:16.000Z",
+      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
+      "release_date": "2026-03-24T03:00:00.000Z",
+      "status": {
+        "id": 4,
+        "name": "AGUARDANDO_AVALIACAO"
+      },
+      "attachments": [
+        {
+          "id": 69506,
+          "original_name": "lucas_giaco_fase01.zip",
+          "filename": "ddfcec32df8c061bcf8bc29bcfc48481.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/ddfcec32df8c061bcf8bc29bcfc48481.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ktSzt-JOh38KSaaXi1LK5uMvPf7trRsk-FKdBh2J4866dmgxx~Ez-38p97v4nleBTE8RjqsaFo4v39Jn0juCF~j6p82hENFp4GkFuiWbKAImfaP58~g8-8wQerX3TH34gonQHTT3I-mqmOmH0Rki~idpAzfVbemBqQRCrYaKXfqW1FFZp~5paezSdqBaADc9~1gQ3KRqIerhs1QNGLt9o92SYPL2XM7V4eApRp5mmFeYqRB8IGkcsAuzhLeRe-5Kg5cUW~aJwd9k9QU4NWPO0e0lY8PfEJl4h5zsfHjFgyhoIO39VO0f1Vd7ywS6KKHikVwTHhdslxAOccv1705Rnw__"
+        }
+      ]
+    },
+    "supervisor": {
+      "id": 52,
+      "name": "Gustavo Monti Rocha",
+      "email": "gustavo.rocha@pucrs.br",
+      "avatar": ""
+    },
+    "criteria": [
+      {
+        "id": 18686,
+        "title": "Crit\u00e9rio 1",
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
+          },
+          {
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
+            "weight": 0.3
+          },
+          {
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
+          },
+          {
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18687,
+        "title": "Crit\u00e9rio 2",
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
+        "dimensions": [
+          {
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
+            "weight": 0.6
+          },
+          {
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
+            "weight": 0.3
+          },
+          {
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18690,
+        "title": "Crit\u00e9rio 5",
+        "description": "Arquivo CSV Final  ",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
+            "weight": 0.6
+          },
+          {
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
+          },
+          {
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
+            "weight": 0
+          }
+        ]
+      }
+    ],
+    "percentage_delay": 0.20000000000000004,
+    "feedbacks": [
+      {
+        "id": 308,
+        "title": "Fase 1",
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
+      }
+    ],
+    "history": [
+      {
+        "id": 335005,
+        "created_at": "2026-03-16T22:21:17.100Z",
+        "delivered_late": false,
+        "delivered_resend": false,
+        "submission_date": "2026-03-16T22:21:16.000Z",
+        "last_submission_date": "2026-03-16T22:21:16.000Z",
+        "evaluation_date": null,
+        "evaluation_correction": null,
+        "status": {
+          "id": 4,
+          "name": "AGUARDANDO_AVALIACAO"
+        },
+        "student": {
+          "id": 4250,
+          "name": "LUCAS GIACOMINI DUARTE",
+          "email": "lucasgiacodu@gmail.com",
+          "avatar": null
+        },
+        "supervisor": null,
+        "student_answer_history": {
+          "form_answers": [],
+          "attachments": [
+            {
+              "id": 48117,
+              "original_name": "lucas_giaco_fase01.zip",
+              "filename": "ddfcec32df8c061bcf8bc29bcfc48481.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/ddfcec32df8c061bcf8bc29bcfc48481.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ktSzt-JOh38KSaaXi1LK5uMvPf7trRsk-FKdBh2J4866dmgxx~Ez-38p97v4nleBTE8RjqsaFo4v39Jn0juCF~j6p82hENFp4GkFuiWbKAImfaP58~g8-8wQerX3TH34gonQHTT3I-mqmOmH0Rki~idpAzfVbemBqQRCrYaKXfqW1FFZp~5paezSdqBaADc9~1gQ3KRqIerhs1QNGLt9o92SYPL2XM7V4eApRp5mmFeYqRB8IGkcsAuzhLeRe-5Kg5cUW~aJwd9k9QU4NWPO0e0lY8PfEJl4h5zsfHjFgyhoIO39VO0f1Vd7ywS6KKHikVwTHhdslxAOccv1705Rnw__"
+            }
+          ]
+        }
+      },
+      {
+        "id": 327679,
+        "created_at": "2026-02-19T09:03:55.590Z",
+        "delivered_late": false,
+        "delivered_resend": false,
+        "submission_date": null,
+        "last_submission_date": null,
+        "evaluation_date": null,
+        "evaluation_correction": null,
+        "status": {
+          "id": 1,
+          "name": "NAO_INICIADO"
+        },
+        "student": {
+          "id": 4250,
+          "name": "LUCAS GIACOMINI DUARTE",
+          "email": "lucasgiacodu@gmail.com",
+          "avatar": null
+        },
+        "supervisor": null
+      }
+    ],
+    "phase_sending_type": "REGULAR",
+    "extraordinary_send": false,
+    "extension_activity_answers": [],
+    "group_infos": null,
+    "phase_id": 120014
+  },
+  {
+    "student_project_id": 72591,
+    "student_project_title": null,
+    "project_status": true,
+    "student": {
+      "id": 5107,
+      "name": "GUSTAVO BRUN DOLIS",
+      "email": "gustavodolis@gmail.com",
+      "avatar": null,
+      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
+      "enrollment_id": 5745,
+      "enrollment_hub_id": 30304,
+      "enrollment_ie": "25151245"
+    },
+    "student_phase": {
+      "id": 120038,
+      "phase_order": 1,
+      "delivery_late": false,
+      "delivery_resend": false,
+      "delivery_at_date": "2026-03-16T12:19:01.000Z",
+      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
+      "release_date": "2026-03-24T03:00:00.000Z",
+      "status": {
+        "id": 4,
+        "name": "AGUARDANDO_AVALIACAO"
+      },
+      "attachments": [
+        {
+          "id": 69058,
+          "original_name": "Trabalho Coleta e Prepara\u00e7\u00e3o de Dados - Fase 1.zip",
+          "filename": "dd9199cb58bddad60b24df72860632e9.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dd9199cb58bddad60b24df72860632e9.zip?Expires=1773769794&Key-Pair-Id=K2B3OCIVN87WG8&Signature=UiySddZNHxIzv47k0UuMTpRvUWM8iWTrcuxGDoSFFh3Jqe6RVBVFcP7eg3Oe9DR-Tw29UUX5Bt~9gRRj8g1AngU2ErBbyjBMI3l5LgenEAVZRoo5qWYj4hsL3Sf76J5O8-z95lZPo7yUIqg28T96BzdW8rbjQyTomiAUkVL2Buua~vTyM6sqCg8tuPkVDrJdoQvZ8zQkgrp6swS-UiJrLYoGWHKFp3BzSsyltJlt2LkWO7ShhlqeTtP743QmgHOnuMAPcLmYm8sDorPWxAuNlkidnayj927Xyd6GZyCBQwMzErREbv~cWKMJdbiE8XscDMSNyig7WTBw~SV~AG3BBw__"
+        }
+      ]
+    },
+    "supervisor": {
+      "id": 52,
+      "name": "Gustavo Monti Rocha",
+      "email": "gustavo.rocha@pucrs.br",
+      "avatar": ""
+    },
+    "criteria": [
+      {
+        "id": 18686,
+        "title": "Crit\u00e9rio 1",
+        "description": "Legibilidade do c\u00f3digo  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39233,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
+            "weight": 0.5
+          },
+          {
+            "id": 39234,
+            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
+            "weight": 0.4
+          },
+          {
+            "id": 39235,
+            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
+            "weight": 0.3
+          },
+          {
+            "id": 39236,
+            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
+            "weight": 0.1
+          },
+          {
+            "id": 39237,
+            "description": "N\u00e3o foi entregue c\u00f3digo. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18687,
+        "title": "Crit\u00e9rio 2",
+        "description": "Coleta da API REST  ",
+        "total_weight": 0.8,
+        "dimensions": [
+          {
+            "id": 39238,
+            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
+            "weight": 0.8
+          },
+          {
+            "id": 39239,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
+            "weight": 0.6
+          },
+          {
+            "id": 39240,
+            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39241,
+            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39242,
+            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18688,
+        "title": "Crit\u00e9rio 3",
+        "description": "Coleta do CSV  ",
+        "total_weight": 0.5,
+        "dimensions": [
+          {
+            "id": 39243,
+            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39244,
+            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
+            "weight": 0.4
+          },
+          {
+            "id": 39245,
+            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39246,
+            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18689,
+        "title": "Crit\u00e9rio 4",
+        "description": "Consolida\u00e7\u00e3o dos Dados",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39247,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
+            "weight": 0.6
+          },
+          {
+            "id": 39248,
+            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
+            "weight": 0.5
+          },
+          {
+            "id": 39249,
+            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
+            "weight": 0.3
+          },
+          {
+            "id": 39250,
+            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "id": 18690,
+        "title": "Crit\u00e9rio 5",
+        "description": "Arquivo CSV Final  ",
+        "total_weight": 0.6,
+        "dimensions": [
+          {
+            "id": 39251,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
+            "weight": 0.6
+          },
+          {
+            "id": 39252,
+            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
+            "weight": 0.5
+          },
+          {
+            "id": 39253,
+            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
+            "weight": 0.3
+          },
+          {
+            "id": 39254,
+            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
+            "weight": 0.1
+          },
+          {
+            "id": 39255,
+            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
+            "weight": 0
+          }
+        ]
+      }
+    ],
+    "percentage_delay": 0.20000000000000004,
+    "feedbacks": [
+      {
+        "id": 308,
+        "title": "Fase 1",
+        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
+      }
+    ],
+    "history": [
+      {
+        "id": 334445,
+        "created_at": "2026-03-16T15:19:01.907Z",
+        "delivered_late": false,
+        "delivered_resend": false,
+        "submission_date": "2026-03-16T15:19:01.000Z",
+        "last_submission_date": "2026-03-16T15:19:01.000Z",
+        "evaluation_date": null,
+        "evaluation_correction": null,
+        "status": {
+          "id": 4,
+          "name": "AGUARDANDO_AVALIACAO"
+        },
+        "student": {
+          "id": 5107,
+          "name": "GUSTAVO BRUN DOLIS",
+          "email": "gustavodolis@gmail.com",
+          "avatar": null
+        },
+        "supervisor": null,
+        "student_answer_history": {
+          "form_answers": [],
+          "attachments": [
+            {
+              "id": 47669,
+              "original_name": "Trabalho Coleta e Prepara\u00e7\u00e3o de Dados - Fase 1.zip",
+              "filename": "dd9199cb58bddad60b24df72860632e9.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dd9199cb58bddad60b24df72860632e9.zip?Expires=1773769794&Key-Pair-Id=K2B3OCIVN87WG8&Signature=UiySddZNHxIzv47k0UuMTpRvUWM8iWTrcuxGDoSFFh3Jqe6RVBVFcP7eg3Oe9DR-Tw29UUX5Bt~9gRRj8g1AngU2ErBbyjBMI3l5LgenEAVZRoo5qWYj4hsL3Sf76J5O8-z95lZPo7yUIqg28T96BzdW8rbjQyTomiAUkVL2Buua~vTyM6sqCg8tuPkVDrJdoQvZ8zQkgrp6swS-UiJrLYoGWHKFp3BzSsyltJlt2LkWO7ShhlqeTtP743QmgHOnuMAPcLmYm8sDorPWxAuNlkidnayj927Xyd6GZyCBQwMzErREbv~cWKMJdbiE8XscDMSNyig7WTBw~SV~AG3BBw__"
+            }
+          ]
+        }
+      },
+      {
+        "id": 327703,
+        "created_at": "2026-02-19T09:03:56.285Z",
+        "delivered_late": false,
+        "delivered_resend": false,
+        "submission_date": null,
+        "last_submission_date": null,
+        "evaluation_date": null,
+        "evaluation_correction": null,
+        "status": {
+          "id": 1,
+          "name": "NAO_INICIADO"
+        },
+        "student": {
+          "id": 5107,
+          "name": "GUSTAVO BRUN DOLIS",
+          "email": "gustavodolis@gmail.com",
+          "avatar": null
+        },
+        "supervisor": null
+      }
+    ],
+    "phase_sending_type": "REGULAR",
+    "extraordinary_send": false,
+    "extension_activity_answers": [],
+    "group_infos": null,
+    "phase_id": 120038
   }
 ]
