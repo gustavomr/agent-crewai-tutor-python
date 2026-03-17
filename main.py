@@ -2,6 +2,7 @@ import os
 import zipfile
 import tempfile
 import glob
+import time
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, LLM
 
@@ -13,9 +14,12 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 if not groq_api_key:
     raise ValueError("GROQ_API_KEY not found in environment variables. Please check your .env file.")
 
+llm_model = os.getenv("LLM_MODEL", "groq/llama-3.3-70b-versatile")
+llm_temperature = float(os.getenv("LLM_TEMPERATURE", "0.1"))
+
 llm = LLM(
-    model="groq/llama-3.3-70b-versatile",
-    temperature=0.1
+    model=llm_model,
+    temperature=llm_temperature
 )
 
 def process_zip_file(zip_path):
@@ -88,38 +92,17 @@ def cleanup(temp_dir, zip_path):
     except Exception as e:
         print(f"⚠️  Warning during cleanup: {e}")
 
-def main():
+def extract_student_name(zip_filename):
     """
-    Main function to process zip file and run code correction.
+    Extract student name from zip filename.
+    Removes .zip extension and returns the name.
     """
-    # Get the directory where main.py is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Look for zip files in the same directory
-    zip_files = glob.glob(os.path.join(script_dir, '*.zip'))
-    
-    if not zip_files:
-        print("❌ No zip files found in the current directory.")
-        print(f"📁 Looking in: {script_dir}")
-        return
-    
-    print(f"📁 Found zip files in {script_dir}:")
-    for i, zip_file in enumerate(zip_files, 1):
-        print(f"  {i}. {os.path.basename(zip_file)}")
-    
-    # Use the first zip file found
-    zip_path = zip_files[0]
-    print(f"\n🔄 Processing: {os.path.basename(zip_path)}")
-    
-    codigo_aluno, temp_dir = process_zip_file(zip_path)
-    
-    if codigo_aluno is None:
-        cleanup(temp_dir, zip_path)
-        return
-    
-    # --- O INPUT: Código do Aluno ---
-    # Now using the code extracted from the zip file
+    return os.path.splitext(zip_filename)[0]
 
+def analyze_student_code(codigo_aluno, student_name):
+    """
+    Analyze student code using CrewAI and return the result.
+    """
     # --- AGENTE REVISOR ---
     revisor_tecnico = Agent(
         role='Especialista em Quality Assurance (QA) Python',
@@ -136,7 +119,7 @@ def main():
         description=f"""
         Analise o código Python abaixo e verifique se ele cumpre os seguintes critérios:
         1. Valida se a entrada está entre -60 e +50?
-        2. Permite redigitação em caso de erro? Seja explicíto com Sim ou Não e não deve ser levado em considerações melhorias.
+        2. Permite redigitação em caso de erro? Seja explícito com Sim ou Não e não deve ser levado em considerações melhorias.
         3. Calcula a média máxima anual corretamente?
         4. Conta meses com temp > 33°C (meses escaldantes)?
         5. Identifica e exibe o nome do mês (por extenso) com maior e menor temperatura?
@@ -152,25 +135,104 @@ def main():
     )
 
     # --- EXECUÇÃO ---
+    max_rpm = int(os.getenv("MAX_RPM", "10"))
+    timeout = int(os.getenv("TIMEOUT", "10"))
     corretor_automatico = Crew(
         agents=[revisor_tecnico],
         tasks=[tarefa_analise],
-        max_rpm=10  # Limita a 10 requisições por minuto para não estourar a A
+        max_rpm=max_rpm,  # Limita requisições por minuto para não estourar a API
+        timeout=timeout  # Timeout em segundos para cada análise
     )
 
     resultado = corretor_automatico.kickoff()
-    print("\n=== RESULTADO DA AVALIAÇÃO ===\n")
-    print(resultado)
+    return resultado
+
+def main():
+    """
+    Main function to process all zip files in downloads folder and generate individual results.
+    """
+    # Get the downloads folder path (inside the project)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    downloads_dir = os.path.join(script_dir, os.getenv("DOWNLOADS_DIRECTORY", "downloads"))
     
-    # Save result to file
-    with open('resultado.txt', 'w', encoding='utf-8') as f:
-        f.write("=== RESULTADO DA AVALIAÇÃO ===\n\n")
-        f.write(str(resultado))
+    # Look for zip files in the downloads folder
+    zip_files = glob.glob(os.path.join(downloads_dir, '*.zip'))
     
-    print("\n📄 Result saved to resultado.txt")
+    if not zip_files:
+        print("❌ No zip files found in the Downloads folder.")
+        print(f"📁 Looking in: {downloads_dir}")
+        return
     
-    # Clean up files after processing
-    cleanup(temp_dir, zip_path)
+    print(f"📁 Found {len(zip_files)} zip files in Downloads folder:")
+    for i, zip_file in enumerate(zip_files, 1):
+        print(f"  {i}. {os.path.basename(zip_file)}")
+    
+    print(f"\n🔄 Processing all files...")
+    
+    # Process each zip file
+    for zip_path in zip_files:
+        zip_filename = os.path.basename(zip_path)
+        student_name = extract_student_name(zip_filename)
+        
+        print(f"\n--- Processing: {zip_filename} (Student: {student_name}) ---")
+        
+        codigo_aluno, temp_dir = process_zip_file(zip_path)
+        
+        if codigo_aluno is None:
+            # Generate result file with error message
+            result_filename = f"resultado_{student_name}.txt"
+            with open(result_filename, 'w', encoding='utf-8') as f:
+                f.write(f"=== RESULTADO DA AVALIAÇÃO ===\n\n")
+                f.write("❌ ERRO NA PROCESSAMENTO DO ARQUIVO\n\n")
+                f.write("Não foi possível encontrar arquivos Python (.py) ou Jupyter notebook (.ipynb) ")
+                f.write("no arquivo zip fornecido, ou ocorreu um erro durante a extração.\n\n")
+                f.write("Por favor, verifique se o arquivo zip contém o código fonte ")
+                f.write("nos formatos esperados (.py ou .ipynb).")
+            
+            print(f"❌ Failed to process {zip_filename}")
+            print(f"📄 Error report saved to {result_filename}")
+            
+            cleanup(temp_dir, zip_path)
+            continue
+        
+        # Analyze the code
+        try:
+            resultado = analyze_student_code(codigo_aluno, student_name)
+            
+            # Generate individual result file
+            result_filename = f"resultado_{student_name}.txt"
+            with open(result_filename, 'w', encoding='utf-8') as f:
+                f.write(f"=== RESULTADO DA AVALIAÇÃO ===\n\n")
+                f.write(str(resultado))
+            
+            print(f"✅ Analysis completed for {student_name}")
+            print(f"📄 Result saved to {result_filename}")
+            
+        except Exception as e:
+            # Generate result file with error message
+            result_filename = f"resultado_{student_name}.txt"
+            with open(result_filename, 'w', encoding='utf-8') as f:
+                f.write(f"=== RESULTADO DA AVALIAÇÃO ===\n\n")
+                f.write("❌ ERRO DURANTE A ANÁLISE DO CÓDIGO\n\n")
+                f.write(f"Ocorreu um erro durante a análise do código: {str(e)}\n\n")
+                f.write("Isso pode ter acontecido por:\n")
+                f.write("- Problemas de conexão com a API\n")
+                f.write("- Formato de código inválido\n")
+                f.write("- Erros internos no processamento\n\n")
+                f.write("Por favor, tente novamente ou verifique o código fonte.")
+            
+            print(f"❌ Analysis error for {student_name}: {str(e)}")
+            print(f"📄 Error report saved to {result_filename}")
+        
+        # Clean up files after processing
+        cleanup(temp_dir, zip_path)
+        
+        # Delay entre processamentos para evitar rate limit
+        delay = int(os.getenv("DELAY_BETWEEN_PROCESSES", "10"))
+        print(f"⏳ Waiting {delay} seconds before next analysis...")
+        time.sleep(delay)
+    
+    print(f"\n🎉 All files processed successfully!")
 
 if __name__ == "__main__":
     main()
