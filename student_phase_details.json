@@ -1,36 +1,36 @@
 [
   {
-    "student_project_id": 72596,
+    "student_project_id": 72556,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 5213,
-      "name": "GRAZIELLY CAVALCANTE DE OLIVEIRA",
-      "email": "grazioliveira2705@gmail.com",
+      "id": 950,
+      "name": "NATASHA MOREIRA MARTINS",
+      "email": "natashamoreiramartins@gmail.com",
       "avatar": null,
       "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 5862,
-      "enrollment_hub_id": 30972,
-      "enrollment_ie": "25250120"
+      "enrollment_id": 1358,
+      "enrollment_hub_id": 8983,
+      "enrollment_ie": "23150860"
     },
     "student_phase": {
-      "id": 120044,
+      "id": 120004,
       "phase_order": 1,
-      "delivery_late": false,
+      "delivery_late": true,
       "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T23:36:20.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
+      "delivery_at_date": "2026-03-23T00:47:47.000Z",
+      "deadline_evaluation_date": "2026-03-30T03:00:00.000Z",
+      "release_date": "2026-03-31T03:00:00.000Z",
       "status": {
         "id": 4,
         "name": "AGUARDANDO_AVALIACAO"
       },
       "attachments": [
         {
-          "id": 70290,
-          "original_name": "Fase_01_Projeto.zip",
-          "filename": "26626d63ec1d4737be74f9f3ff9c55d6.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/26626d63ec1d4737be74f9f3ff9c55d6.zip?Expires=1773769789&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ZAxopVgMK4ESo~6-PbriSzJ0W9WkTr7Xmm0QPXHRnbSqSdfbMdqttC9pPNWqS0bO6yU9AmnIC~gOEy-qZ2P~31xdxlS2mbx3wjhQrimlBCDP52PD0Zl2a8uBUpLQc9bm2NuB2ir9Bmnz8DpCMCrfBFRccGr49JrG2e2r~W1lF5Oc7g0jOARbVbNkAFgfWMR3t1Pf15nAlQ~fHi2INRC~U14gvUUUXx9CcaGsLDY~Ze9Me9yJbFJyxRlM9pZcO9WvKbq1NM9xyIIQLmZp6ilr~uPndmNIf8wQm72-ut7Xe3ZTNLCBn4iBudys~ZHPUH8FDBGho9JXmOAWoFoXp4OGIQ__"
+          "id": 70752,
+          "original_name": "Coleta e prepara\u00e7\u00e3o de dados - Fase I.zip",
+          "filename": "d81e11991f42102bf946ee36e934e596.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/d81e11991f42102bf946ee36e934e596.zip?Expires=1774295540&Key-Pair-Id=K2B3OCIVN87WG8&Signature=IBMaz09LxLtC4VHvsvrElEqMmCuxCa4exLYIg7vSqoTJEfF4IFHxSTlGLBQbeem6RP11Jk1ggKiys0ZiX2mhGW3seiV2Tu2VxSZkWOgdI7qmT2BE~T3iYe4~g9LQMCIxsrZZ5vFlC0W-M~892xFlUh1C38ILLZf5e9sRiR8aUPIfbnTXyO5NcZPxeSGvz2YcmfBWHPyTN1XbiC61nS2OezYKqbs8l-scOFBzujMMvQzXUvzcGWUE8LPmpNNxtrLhUOC53pJscCAGtcRSnXtO9ihXB0~eyK7z99T-ba8Arcv1~mJkqrfTI1IJcXKB6h2MIlcfeqSi1eQOTMp4r2PJnw__"
         }
       ]
     },
@@ -207,12 +207,12 @@
     ],
     "history": [
       {
-        "id": 335934,
-        "created_at": "2026-03-17T02:36:20.803Z",
-        "delivered_late": false,
+        "id": 338495,
+        "created_at": "2026-03-23T03:47:47.975Z",
+        "delivered_late": true,
         "delivered_resend": false,
-        "submission_date": "2026-03-17T02:36:20.000Z",
-        "last_submission_date": "2026-03-17T02:36:20.000Z",
+        "submission_date": "2026-03-23T03:47:47.000Z",
+        "last_submission_date": "2026-03-23T03:47:47.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -220,9 +220,9 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 5213,
-          "name": "GRAZIELLY CAVALCANTE DE OLIVEIRA",
-          "email": "grazioliveira2705@gmail.com",
+          "id": 950,
+          "name": "NATASHA MOREIRA MARTINS",
+          "email": "natashamoreiramartins@gmail.com",
           "avatar": null
         },
         "supervisor": null,
@@ -230,17 +230,17 @@
           "form_answers": [],
           "attachments": [
             {
-              "id": 48901,
-              "original_name": "Fase_01_Projeto.zip",
-              "filename": "26626d63ec1d4737be74f9f3ff9c55d6.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/26626d63ec1d4737be74f9f3ff9c55d6.zip?Expires=1773769789&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ZAxopVgMK4ESo~6-PbriSzJ0W9WkTr7Xmm0QPXHRnbSqSdfbMdqttC9pPNWqS0bO6yU9AmnIC~gOEy-qZ2P~31xdxlS2mbx3wjhQrimlBCDP52PD0Zl2a8uBUpLQc9bm2NuB2ir9Bmnz8DpCMCrfBFRccGr49JrG2e2r~W1lF5Oc7g0jOARbVbNkAFgfWMR3t1Pf15nAlQ~fHi2INRC~U14gvUUUXx9CcaGsLDY~Ze9Me9yJbFJyxRlM9pZcO9WvKbq1NM9xyIIQLmZp6ilr~uPndmNIf8wQm72-ut7Xe3ZTNLCBn4iBudys~ZHPUH8FDBGho9JXmOAWoFoXp4OGIQ__"
+              "id": 49364,
+              "original_name": "Coleta e prepara\u00e7\u00e3o de dados - Fase I.zip",
+              "filename": "d81e11991f42102bf946ee36e934e596.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/d81e11991f42102bf946ee36e934e596.zip?Expires=1774295540&Key-Pair-Id=K2B3OCIVN87WG8&Signature=IBMaz09LxLtC4VHvsvrElEqMmCuxCa4exLYIg7vSqoTJEfF4IFHxSTlGLBQbeem6RP11Jk1ggKiys0ZiX2mhGW3seiV2Tu2VxSZkWOgdI7qmT2BE~T3iYe4~g9LQMCIxsrZZ5vFlC0W-M~892xFlUh1C38ILLZf5e9sRiR8aUPIfbnTXyO5NcZPxeSGvz2YcmfBWHPyTN1XbiC61nS2OezYKqbs8l-scOFBzujMMvQzXUvzcGWUE8LPmpNNxtrLhUOC53pJscCAGtcRSnXtO9ihXB0~eyK7z99T-ba8Arcv1~mJkqrfTI1IJcXKB6h2MIlcfeqSi1eQOTMp4r2PJnw__"
             }
           ]
         }
       },
       {
-        "id": 327709,
-        "created_at": "2026-02-19T09:03:56.369Z",
+        "id": 327669,
+        "created_at": "2026-02-19T09:03:55.298Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -252,9 +252,9 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 5213,
-          "name": "GRAZIELLY CAVALCANTE DE OLIVEIRA",
-          "email": "grazioliveira2705@gmail.com",
+          "id": 950,
+          "name": "NATASHA MOREIRA MARTINS",
+          "email": "natashamoreiramartins@gmail.com",
           "avatar": null
         },
         "supervisor": null
@@ -264,574 +264,40 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 120044
+    "phase_id": 120004
   },
   {
-    "student_project_id": 72598,
+    "student_project_id": 72573,
     "student_project_title": null,
     "project_status": true,
     "student": {
-      "id": 5283,
-      "name": "RAFAEL OLIVEIRA DO NASCIMENTO",
-      "email": "rfl.nascimento00@gmail.com",
-      "avatar": "b372a48d60088c544f0403e292cff272.jpeg",
-      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 5932,
-      "enrollment_hub_id": 31043,
-      "enrollment_ie": "25250235"
-    },
-    "student_phase": {
-      "id": 120046,
-      "phase_order": 1,
-      "delivery_late": false,
-      "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T22:35:46.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      },
-      "attachments": [
-        {
-          "id": 70084,
-          "original_name": "fase 1 coleta e prepara\u00e7\u00e3o de Dados.zip",
-          "filename": "768203c7ec5de43c0f1838c7291fc93a.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/768203c7ec5de43c0f1838c7291fc93a.zip?Expires=1773769790&Key-Pair-Id=K2B3OCIVN87WG8&Signature=EdjA4i2Y39I2YeANZECdh-gJdaOGDt7YiNrU9o3KCH54KAfYeLQtVe6NyvboDNyfbaeyqmpWfsCaQZJrxno8cryc~nTh828lEfV6YXxUTSBZ37uChMzV2i~KgvVj-7EcyDXGBx6ekA5nc5UaxgQ2u-R60~OcEMKec1wAL8FpgDbuyUpuEaj6UVoGtLCpvV8j0lz4Z-0jC7AOKd-ClK2p3Og~NCJkzw0o-ii04tk8Kw~qIn5KX2U-UU8iLjTfGfuu1Kgv5vfGjAzN07w8OckS8DiCklVx1E8lJKeusmZJuBdVUT~XE4j9EA7wG4fRKSSxuWZjZ~aOTAYiyPb-AF-Kew__"
-        }
-      ]
-    },
-    "supervisor": {
-      "id": 52,
-      "name": "Gustavo Monti Rocha",
-      "email": "gustavo.rocha@pucrs.br",
-      "avatar": ""
-    },
-    "criteria": [
-      {
-        "id": 18686,
-        "title": "Crit\u00e9rio 1",
-        "description": "Legibilidade do c\u00f3digo  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39233,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
-            "weight": 0.5
-          },
-          {
-            "id": 39234,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
-            "weight": 0.4
-          },
-          {
-            "id": 39235,
-            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39236,
-            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
-            "weight": 0.1
-          },
-          {
-            "id": 39237,
-            "description": "N\u00e3o foi entregue c\u00f3digo. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18687,
-        "title": "Crit\u00e9rio 2",
-        "description": "Coleta da API REST  ",
-        "total_weight": 0.8,
-        "dimensions": [
-          {
-            "id": 39238,
-            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
-            "weight": 0.8
-          },
-          {
-            "id": 39239,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39240,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39241,
-            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39242,
-            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18688,
-        "title": "Crit\u00e9rio 3",
-        "description": "Coleta do CSV  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39243,
-            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39244,
-            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39245,
-            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39246,
-            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18689,
-        "title": "Crit\u00e9rio 4",
-        "description": "Consolida\u00e7\u00e3o dos Dados",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39247,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
-            "weight": 0.6
-          },
-          {
-            "id": 39248,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39249,
-            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39250,
-            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18690,
-        "title": "Crit\u00e9rio 5",
-        "description": "Arquivo CSV Final  ",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39251,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39252,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
-            "weight": 0.5
-          },
-          {
-            "id": 39253,
-            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
-            "weight": 0.3
-          },
-          {
-            "id": 39254,
-            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39255,
-            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
-            "weight": 0
-          }
-        ]
-      }
-    ],
-    "percentage_delay": 0.20000000000000004,
-    "feedbacks": [
-      {
-        "id": 308,
-        "title": "Fase 1",
-        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
-      }
-    ],
-    "history": [
-      {
-        "id": 335706,
-        "created_at": "2026-03-17T01:35:46.352Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": "2026-03-17T01:35:46.000Z",
-        "last_submission_date": "2026-03-17T01:35:46.000Z",
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 4,
-          "name": "AGUARDANDO_AVALIACAO"
-        },
-        "student": {
-          "id": 5283,
-          "name": "RAFAEL OLIVEIRA DO NASCIMENTO",
-          "email": "rfl.nascimento00@gmail.com",
-          "avatar": "b372a48d60088c544f0403e292cff272.jpeg"
-        },
-        "supervisor": null,
-        "student_answer_history": {
-          "form_answers": [],
-          "attachments": [
-            {
-              "id": 48695,
-              "original_name": "fase 1 coleta e prepara\u00e7\u00e3o de Dados.zip",
-              "filename": "768203c7ec5de43c0f1838c7291fc93a.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/768203c7ec5de43c0f1838c7291fc93a.zip?Expires=1773769790&Key-Pair-Id=K2B3OCIVN87WG8&Signature=EdjA4i2Y39I2YeANZECdh-gJdaOGDt7YiNrU9o3KCH54KAfYeLQtVe6NyvboDNyfbaeyqmpWfsCaQZJrxno8cryc~nTh828lEfV6YXxUTSBZ37uChMzV2i~KgvVj-7EcyDXGBx6ekA5nc5UaxgQ2u-R60~OcEMKec1wAL8FpgDbuyUpuEaj6UVoGtLCpvV8j0lz4Z-0jC7AOKd-ClK2p3Og~NCJkzw0o-ii04tk8Kw~qIn5KX2U-UU8iLjTfGfuu1Kgv5vfGjAzN07w8OckS8DiCklVx1E8lJKeusmZJuBdVUT~XE4j9EA7wG4fRKSSxuWZjZ~aOTAYiyPb-AF-Kew__"
-            }
-          ]
-        }
-      },
-      {
-        "id": 327711,
-        "created_at": "2026-02-19T09:03:56.397Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": null,
-        "last_submission_date": null,
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 1,
-          "name": "NAO_INICIADO"
-        },
-        "student": {
-          "id": 5283,
-          "name": "RAFAEL OLIVEIRA DO NASCIMENTO",
-          "email": "rfl.nascimento00@gmail.com",
-          "avatar": "b372a48d60088c544f0403e292cff272.jpeg"
-        },
-        "supervisor": null
-      }
-    ],
-    "phase_sending_type": "REGULAR",
-    "extraordinary_send": false,
-    "extension_activity_answers": [],
-    "group_infos": null,
-    "phase_id": 120046
-  },
-  {
-    "student_project_id": 72579,
-    "student_project_title": null,
-    "project_status": true,
-    "student": {
-      "id": 4876,
-      "name": "NAIARA LARISSA BORGES ZIMMERMANN",
-      "email": "naiaraborgesz09@gmail.com",
-      "avatar": "4b5f34e2219ffd9397f5152c19368e20.jpeg",
-      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 5488,
-      "enrollment_hub_id": 29477,
-      "enrollment_ie": "25151097"
-    },
-    "student_phase": {
-      "id": 120026,
-      "phase_order": 1,
-      "delivery_late": false,
-      "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T21:30:52.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      },
-      "attachments": [
-        {
-          "id": 69871,
-          "original_name": "Fase1_NaiaraZimmermann_Coleta_e_prepara\u00e7\u00e3o_de_dados.zip",
-          "filename": "dae6227f5df2421e3535b5fbcc31f8e7.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dae6227f5df2421e3535b5fbcc31f8e7.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=pnAWRqFAzdX25rFMiWyvUFYd8ECBeYMZzj8f7k22YJ0qwD39Lk74jjIAM2uEqXx7MW9toqCPrtxOqn~lDrKJdakuGnHdfsMCLzZcbnH6L~IXpiEMwwE6YM3DwSP7XG6u5ybiD8BdgxW5sLY0bMLYXg6a9Wwnw8UhR2FDRohIv74G1~Alrp6bIvNLqMO8zrC5w6TfLA0TuPnW2BrOB0dEXChNhb4wUT4R6mUnOhljFCKwWjnVczppuFdAJW-gYNapf~0KiA5quNH-QZI0XhVZNHxJ695sz6FIICfA5iik~gLe8sF49INwDLmRNy0sm07O8n0dn4fBETqiD7ye3eGXfg__"
-        }
-      ]
-    },
-    "supervisor": {
-      "id": 52,
-      "name": "Gustavo Monti Rocha",
-      "email": "gustavo.rocha@pucrs.br",
-      "avatar": ""
-    },
-    "criteria": [
-      {
-        "id": 18686,
-        "title": "Crit\u00e9rio 1",
-        "description": "Legibilidade do c\u00f3digo  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39233,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
-            "weight": 0.5
-          },
-          {
-            "id": 39234,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
-            "weight": 0.4
-          },
-          {
-            "id": 39235,
-            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39236,
-            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
-            "weight": 0.1
-          },
-          {
-            "id": 39237,
-            "description": "N\u00e3o foi entregue c\u00f3digo. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18687,
-        "title": "Crit\u00e9rio 2",
-        "description": "Coleta da API REST  ",
-        "total_weight": 0.8,
-        "dimensions": [
-          {
-            "id": 39238,
-            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
-            "weight": 0.8
-          },
-          {
-            "id": 39239,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39240,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39241,
-            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39242,
-            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18688,
-        "title": "Crit\u00e9rio 3",
-        "description": "Coleta do CSV  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39243,
-            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39244,
-            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39245,
-            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39246,
-            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18689,
-        "title": "Crit\u00e9rio 4",
-        "description": "Consolida\u00e7\u00e3o dos Dados",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39247,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
-            "weight": 0.6
-          },
-          {
-            "id": 39248,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39249,
-            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39250,
-            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18690,
-        "title": "Crit\u00e9rio 5",
-        "description": "Arquivo CSV Final  ",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39251,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39252,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
-            "weight": 0.5
-          },
-          {
-            "id": 39253,
-            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
-            "weight": 0.3
-          },
-          {
-            "id": 39254,
-            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39255,
-            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
-            "weight": 0
-          }
-        ]
-      }
-    ],
-    "percentage_delay": 0.20000000000000004,
-    "feedbacks": [
-      {
-        "id": 308,
-        "title": "Fase 1",
-        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
-      }
-    ],
-    "history": [
-      {
-        "id": 335460,
-        "created_at": "2026-03-17T00:30:52.563Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": "2026-03-17T00:30:52.000Z",
-        "last_submission_date": "2026-03-17T00:30:52.000Z",
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 4,
-          "name": "AGUARDANDO_AVALIACAO"
-        },
-        "student": {
-          "id": 4876,
-          "name": "NAIARA LARISSA BORGES ZIMMERMANN",
-          "email": "naiaraborgesz09@gmail.com",
-          "avatar": "4b5f34e2219ffd9397f5152c19368e20.jpeg"
-        },
-        "supervisor": null,
-        "student_answer_history": {
-          "form_answers": [],
-          "attachments": [
-            {
-              "id": 48482,
-              "original_name": "Fase1_NaiaraZimmermann_Coleta_e_prepara\u00e7\u00e3o_de_dados.zip",
-              "filename": "dae6227f5df2421e3535b5fbcc31f8e7.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dae6227f5df2421e3535b5fbcc31f8e7.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=pnAWRqFAzdX25rFMiWyvUFYd8ECBeYMZzj8f7k22YJ0qwD39Lk74jjIAM2uEqXx7MW9toqCPrtxOqn~lDrKJdakuGnHdfsMCLzZcbnH6L~IXpiEMwwE6YM3DwSP7XG6u5ybiD8BdgxW5sLY0bMLYXg6a9Wwnw8UhR2FDRohIv74G1~Alrp6bIvNLqMO8zrC5w6TfLA0TuPnW2BrOB0dEXChNhb4wUT4R6mUnOhljFCKwWjnVczppuFdAJW-gYNapf~0KiA5quNH-QZI0XhVZNHxJ695sz6FIICfA5iik~gLe8sF49INwDLmRNy0sm07O8n0dn4fBETqiD7ye3eGXfg__"
-            }
-          ]
-        }
-      },
-      {
-        "id": 327691,
-        "created_at": "2026-02-19T09:03:55.885Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": null,
-        "last_submission_date": null,
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 1,
-          "name": "NAO_INICIADO"
-        },
-        "student": {
-          "id": 4876,
-          "name": "NAIARA LARISSA BORGES ZIMMERMANN",
-          "email": "naiaraborgesz09@gmail.com",
-          "avatar": "4b5f34e2219ffd9397f5152c19368e20.jpeg"
-        },
-        "supervisor": null
-      }
-    ],
-    "phase_sending_type": "REGULAR",
-    "extraordinary_send": false,
-    "extension_activity_answers": [],
-    "group_infos": null,
-    "phase_id": 120026
-  },
-  {
-    "student_project_id": 72565,
-    "student_project_title": null,
-    "project_status": true,
-    "student": {
-      "id": 3880,
-      "name": "FREDERICO GON\u00c7ALVES NUNES",
-      "email": "frednunes2807@gmail.com",
+      "id": 4805,
+      "name": "DIEGO DE MATOS FERRANDIS",
+      "email": "diegoferrandis@hotmail.com",
       "avatar": null,
       "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 4439,
-      "enrollment_hub_id": 19563,
-      "enrollment_ie": "24250831"
+      "enrollment_id": 5416,
+      "enrollment_hub_id": 28796,
+      "enrollment_ie": "25151003"
     },
     "student_phase": {
-      "id": 120012,
+      "id": 120020,
       "phase_order": 1,
-      "delivery_late": false,
+      "delivery_late": true,
       "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T20:50:29.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
+      "delivery_at_date": "2026-03-22T20:53:45.000Z",
+      "deadline_evaluation_date": "2026-03-30T03:00:00.000Z",
+      "release_date": "2026-03-31T03:00:00.000Z",
       "status": {
         "id": 4,
         "name": "AGUARDANDO_AVALIACAO"
       },
       "attachments": [
         {
-          "id": 69747,
-          "original_name": "fase01.zip",
-          "filename": "73b573b348630d21a356c2a839831b31.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/73b573b348630d21a356c2a839831b31.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=OPVX4c-~RSWLHF8m1P1Gw82Fr7ca2X0sVufmLrq9zD4y~1DbLHqoAQ4SYA9C2l0p6ANxwPyOAc-tlBcCcgEi8DsB~0kIHrRYtSUa6Phd9-DbNEttB3L3DzYSnSQCYhf39AnQ17nsA8imWON8TxPOIZ6BsOEY8JN1ZZ862KIrgeSO1YY1Pll6YsAZUWg0SM3hj3l2rSPSu3qce6xwutuswS-NrwR0a5mjpqykmm-LAxK1Jombxe1fsLAAsK3F3fGlCWCazeAGuX~EDULFRyRDIJ7LiJHQ2r2lG6iTwnGxIDfidykSTvCK8WWXAN3DRLqcgAgbgJAnDwJtiACLwdHJ-Q__"
+          "id": 70707,
+          "original_name": "Coleta_Dados_Fase1_DiegoFerrandis_Mat25151003-8.zip",
+          "filename": "b18ccf5276b7fcf63950b9a4bd77d9c9.zip",
+          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/b18ccf5276b7fcf63950b9a4bd77d9c9.zip?Expires=1774295540&Key-Pair-Id=K2B3OCIVN87WG8&Signature=bGlt6DAtLFOMz5ZnhLHM0bnA2mi6ldlghzR45UTxTboypRWouT2XELblQTaLH0RmwM15TVEWt8vgpPv~Na2nwrU7wBcAazu~fSNU0oFEcbY8DnBjLwwWuQ~653o4~kvu6h7-KYROESe-ufv59qn7ONJLCx6sKHdnTWce10wtcTAfID0TraXGGdFKhPYG~Af2DRteKbAojRloQJUJ-uJzuOm5ImAY8f9CRoknS1S~2WUMmo-cayDq~IxirIqvMYr1P-EtxtFwpyTdZPW~c43BaBKmXtvDVIPICcFKOs9SnhzZgyqWj1~88KEIIyaRGsqFBkXMRSSTMviDcoF~TRoJbg__"
         }
       ]
     },
@@ -1008,12 +474,12 @@
     ],
     "history": [
       {
-        "id": 335298,
-        "created_at": "2026-03-16T23:50:29.677Z",
-        "delivered_late": false,
+        "id": 338438,
+        "created_at": "2026-03-22T23:53:45.967Z",
+        "delivered_late": true,
         "delivered_resend": false,
-        "submission_date": "2026-03-16T23:50:29.000Z",
-        "last_submission_date": "2026-03-16T23:50:29.000Z",
+        "submission_date": "2026-03-22T23:53:45.000Z",
+        "last_submission_date": "2026-03-22T23:53:45.000Z",
         "evaluation_date": null,
         "evaluation_correction": null,
         "status": {
@@ -1021,9 +487,9 @@
           "name": "AGUARDANDO_AVALIACAO"
         },
         "student": {
-          "id": 3880,
-          "name": "FREDERICO GON\u00c7ALVES NUNES",
-          "email": "frednunes2807@gmail.com",
+          "id": 4805,
+          "name": "DIEGO DE MATOS FERRANDIS",
+          "email": "diegoferrandis@hotmail.com",
           "avatar": null
         },
         "supervisor": null,
@@ -1031,17 +497,17 @@
           "form_answers": [],
           "attachments": [
             {
-              "id": 48358,
-              "original_name": "fase01.zip",
-              "filename": "73b573b348630d21a356c2a839831b31.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/73b573b348630d21a356c2a839831b31.zip?Expires=1773769791&Key-Pair-Id=K2B3OCIVN87WG8&Signature=OPVX4c-~RSWLHF8m1P1Gw82Fr7ca2X0sVufmLrq9zD4y~1DbLHqoAQ4SYA9C2l0p6ANxwPyOAc-tlBcCcgEi8DsB~0kIHrRYtSUa6Phd9-DbNEttB3L3DzYSnSQCYhf39AnQ17nsA8imWON8TxPOIZ6BsOEY8JN1ZZ862KIrgeSO1YY1Pll6YsAZUWg0SM3hj3l2rSPSu3qce6xwutuswS-NrwR0a5mjpqykmm-LAxK1Jombxe1fsLAAsK3F3fGlCWCazeAGuX~EDULFRyRDIJ7LiJHQ2r2lG6iTwnGxIDfidykSTvCK8WWXAN3DRLqcgAgbgJAnDwJtiACLwdHJ-Q__"
+              "id": 49319,
+              "original_name": "Coleta_Dados_Fase1_DiegoFerrandis_Mat25151003-8.zip",
+              "filename": "b18ccf5276b7fcf63950b9a4bd77d9c9.zip",
+              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/b18ccf5276b7fcf63950b9a4bd77d9c9.zip?Expires=1774295540&Key-Pair-Id=K2B3OCIVN87WG8&Signature=bGlt6DAtLFOMz5ZnhLHM0bnA2mi6ldlghzR45UTxTboypRWouT2XELblQTaLH0RmwM15TVEWt8vgpPv~Na2nwrU7wBcAazu~fSNU0oFEcbY8DnBjLwwWuQ~653o4~kvu6h7-KYROESe-ufv59qn7ONJLCx6sKHdnTWce10wtcTAfID0TraXGGdFKhPYG~Af2DRteKbAojRloQJUJ-uJzuOm5ImAY8f9CRoknS1S~2WUMmo-cayDq~IxirIqvMYr1P-EtxtFwpyTdZPW~c43BaBKmXtvDVIPICcFKOs9SnhzZgyqWj1~88KEIIyaRGsqFBkXMRSSTMviDcoF~TRoJbg__"
             }
           ]
         }
       },
       {
-        "id": 327677,
-        "created_at": "2026-02-19T09:03:55.507Z",
+        "id": 327685,
+        "created_at": "2026-02-19T09:03:55.705Z",
         "delivered_late": false,
         "delivered_resend": false,
         "submission_date": null,
@@ -1053,9 +519,9 @@
           "name": "NAO_INICIADO"
         },
         "student": {
-          "id": 3880,
-          "name": "FREDERICO GON\u00c7ALVES NUNES",
-          "email": "frednunes2807@gmail.com",
+          "id": 4805,
+          "name": "DIEGO DE MATOS FERRANDIS",
+          "email": "diegoferrandis@hotmail.com",
           "avatar": null
         },
         "supervisor": null
@@ -1065,807 +531,6 @@
     "extraordinary_send": false,
     "extension_activity_answers": [],
     "group_infos": null,
-    "phase_id": 120012
-  },
-  {
-    "student_project_id": 72577,
-    "student_project_title": null,
-    "project_status": true,
-    "student": {
-      "id": 4855,
-      "name": "MONIQUE SILVA DE LEON VARGAS",
-      "email": "mooniiquueeniick@icloud.com",
-      "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 5466,
-      "enrollment_hub_id": 29374,
-      "enrollment_ie": "25151067"
-    },
-    "student_phase": {
-      "id": 120024,
-      "phase_order": 1,
-      "delivery_late": false,
-      "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T20:31:03.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      },
-      "attachments": [
-        {
-          "id": 69688,
-          "original_name": "Coleta e Prepaa\u00e7\u00e3o de dados - Fase 1.zip",
-          "filename": "c4ac41d0f82cc94970636f3c2119a7b8.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/c4ac41d0f82cc94970636f3c2119a7b8.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=SrxmnJScQ9k4wkoA~GpsA0WuyFzzu3MWK0Y4QShM46DoDiNtIGD21yfX3FHmTspMmWeWoqo9ZFB~kYmfcEU1zeU3eNWP79KyCeTf2wPFcRbFvz9X6dyfeI42GukJX-v2I7f92NHZ6chmMp-BRDGvZnWQcNA3oBpJ2btWVabcd1JOsHTvifx3fevA0pZKwkmJOqe-DyqCfYLmGkxLAUSZ13W8Frx4qw5qAHt5-mMwUnxFiFVEz0aNS2XrAgE2KDPUhadLokA18QyAlj~NY6cWK-GaflRNVUB9XdKtXIvniSiOmktfFxwFgnga7w5PmU7F19QPeghDl1q39GIfMWEvcA__"
-        }
-      ]
-    },
-    "supervisor": {
-      "id": 52,
-      "name": "Gustavo Monti Rocha",
-      "email": "gustavo.rocha@pucrs.br",
-      "avatar": ""
-    },
-    "criteria": [
-      {
-        "id": 18686,
-        "title": "Crit\u00e9rio 1",
-        "description": "Legibilidade do c\u00f3digo  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39233,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
-            "weight": 0.5
-          },
-          {
-            "id": 39234,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
-            "weight": 0.4
-          },
-          {
-            "id": 39235,
-            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39236,
-            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
-            "weight": 0.1
-          },
-          {
-            "id": 39237,
-            "description": "N\u00e3o foi entregue c\u00f3digo. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18687,
-        "title": "Crit\u00e9rio 2",
-        "description": "Coleta da API REST  ",
-        "total_weight": 0.8,
-        "dimensions": [
-          {
-            "id": 39238,
-            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
-            "weight": 0.8
-          },
-          {
-            "id": 39239,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39240,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39241,
-            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39242,
-            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18688,
-        "title": "Crit\u00e9rio 3",
-        "description": "Coleta do CSV  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39243,
-            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39244,
-            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39245,
-            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39246,
-            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18689,
-        "title": "Crit\u00e9rio 4",
-        "description": "Consolida\u00e7\u00e3o dos Dados",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39247,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
-            "weight": 0.6
-          },
-          {
-            "id": 39248,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39249,
-            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39250,
-            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18690,
-        "title": "Crit\u00e9rio 5",
-        "description": "Arquivo CSV Final  ",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39251,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39252,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
-            "weight": 0.5
-          },
-          {
-            "id": 39253,
-            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
-            "weight": 0.3
-          },
-          {
-            "id": 39254,
-            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39255,
-            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
-            "weight": 0
-          }
-        ]
-      }
-    ],
-    "percentage_delay": 0.20000000000000004,
-    "feedbacks": [
-      {
-        "id": 308,
-        "title": "Fase 1",
-        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
-      }
-    ],
-    "history": [
-      {
-        "id": 335234,
-        "created_at": "2026-03-16T23:31:03.392Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": "2026-03-16T23:31:03.000Z",
-        "last_submission_date": "2026-03-16T23:31:03.000Z",
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 4,
-          "name": "AGUARDANDO_AVALIACAO"
-        },
-        "student": {
-          "id": 4855,
-          "name": "MONIQUE SILVA DE LEON VARGAS",
-          "email": "mooniiquueeniick@icloud.com",
-          "avatar": null
-        },
-        "supervisor": null,
-        "student_answer_history": {
-          "form_answers": [],
-          "attachments": [
-            {
-              "id": 48299,
-              "original_name": "Coleta e Prepaa\u00e7\u00e3o de dados - Fase 1.zip",
-              "filename": "c4ac41d0f82cc94970636f3c2119a7b8.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/c4ac41d0f82cc94970636f3c2119a7b8.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=SrxmnJScQ9k4wkoA~GpsA0WuyFzzu3MWK0Y4QShM46DoDiNtIGD21yfX3FHmTspMmWeWoqo9ZFB~kYmfcEU1zeU3eNWP79KyCeTf2wPFcRbFvz9X6dyfeI42GukJX-v2I7f92NHZ6chmMp-BRDGvZnWQcNA3oBpJ2btWVabcd1JOsHTvifx3fevA0pZKwkmJOqe-DyqCfYLmGkxLAUSZ13W8Frx4qw5qAHt5-mMwUnxFiFVEz0aNS2XrAgE2KDPUhadLokA18QyAlj~NY6cWK-GaflRNVUB9XdKtXIvniSiOmktfFxwFgnga7w5PmU7F19QPeghDl1q39GIfMWEvcA__"
-            }
-          ]
-        }
-      },
-      {
-        "id": 327689,
-        "created_at": "2026-02-19T09:03:55.760Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": null,
-        "last_submission_date": null,
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 1,
-          "name": "NAO_INICIADO"
-        },
-        "student": {
-          "id": 4855,
-          "name": "MONIQUE SILVA DE LEON VARGAS",
-          "email": "mooniiquueeniick@icloud.com",
-          "avatar": null
-        },
-        "supervisor": null
-      }
-    ],
-    "phase_sending_type": "REGULAR",
-    "extraordinary_send": false,
-    "extension_activity_answers": [],
-    "group_infos": null,
-    "phase_id": 120024
-  },
-  {
-    "student_project_id": 72567,
-    "student_project_title": null,
-    "project_status": true,
-    "student": {
-      "id": 4250,
-      "name": "LUCAS GIACOMINI DUARTE",
-      "email": "lucasgiacodu@gmail.com",
-      "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 4847,
-      "enrollment_hub_id": 25988,
-      "enrollment_ie": "25150381"
-    },
-    "student_phase": {
-      "id": 120014,
-      "phase_order": 1,
-      "delivery_late": false,
-      "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T19:21:16.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      },
-      "attachments": [
-        {
-          "id": 69506,
-          "original_name": "lucas_giaco_fase01.zip",
-          "filename": "ddfcec32df8c061bcf8bc29bcfc48481.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/ddfcec32df8c061bcf8bc29bcfc48481.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ktSzt-JOh38KSaaXi1LK5uMvPf7trRsk-FKdBh2J4866dmgxx~Ez-38p97v4nleBTE8RjqsaFo4v39Jn0juCF~j6p82hENFp4GkFuiWbKAImfaP58~g8-8wQerX3TH34gonQHTT3I-mqmOmH0Rki~idpAzfVbemBqQRCrYaKXfqW1FFZp~5paezSdqBaADc9~1gQ3KRqIerhs1QNGLt9o92SYPL2XM7V4eApRp5mmFeYqRB8IGkcsAuzhLeRe-5Kg5cUW~aJwd9k9QU4NWPO0e0lY8PfEJl4h5zsfHjFgyhoIO39VO0f1Vd7ywS6KKHikVwTHhdslxAOccv1705Rnw__"
-        }
-      ]
-    },
-    "supervisor": {
-      "id": 52,
-      "name": "Gustavo Monti Rocha",
-      "email": "gustavo.rocha@pucrs.br",
-      "avatar": ""
-    },
-    "criteria": [
-      {
-        "id": 18686,
-        "title": "Crit\u00e9rio 1",
-        "description": "Legibilidade do c\u00f3digo  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39233,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
-            "weight": 0.5
-          },
-          {
-            "id": 39234,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
-            "weight": 0.4
-          },
-          {
-            "id": 39235,
-            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39236,
-            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
-            "weight": 0.1
-          },
-          {
-            "id": 39237,
-            "description": "N\u00e3o foi entregue c\u00f3digo. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18687,
-        "title": "Crit\u00e9rio 2",
-        "description": "Coleta da API REST  ",
-        "total_weight": 0.8,
-        "dimensions": [
-          {
-            "id": 39238,
-            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
-            "weight": 0.8
-          },
-          {
-            "id": 39239,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39240,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39241,
-            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39242,
-            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18688,
-        "title": "Crit\u00e9rio 3",
-        "description": "Coleta do CSV  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39243,
-            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39244,
-            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39245,
-            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39246,
-            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18689,
-        "title": "Crit\u00e9rio 4",
-        "description": "Consolida\u00e7\u00e3o dos Dados",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39247,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
-            "weight": 0.6
-          },
-          {
-            "id": 39248,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39249,
-            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39250,
-            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18690,
-        "title": "Crit\u00e9rio 5",
-        "description": "Arquivo CSV Final  ",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39251,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39252,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
-            "weight": 0.5
-          },
-          {
-            "id": 39253,
-            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
-            "weight": 0.3
-          },
-          {
-            "id": 39254,
-            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39255,
-            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
-            "weight": 0
-          }
-        ]
-      }
-    ],
-    "percentage_delay": 0.20000000000000004,
-    "feedbacks": [
-      {
-        "id": 308,
-        "title": "Fase 1",
-        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
-      }
-    ],
-    "history": [
-      {
-        "id": 335005,
-        "created_at": "2026-03-16T22:21:17.100Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": "2026-03-16T22:21:16.000Z",
-        "last_submission_date": "2026-03-16T22:21:16.000Z",
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 4,
-          "name": "AGUARDANDO_AVALIACAO"
-        },
-        "student": {
-          "id": 4250,
-          "name": "LUCAS GIACOMINI DUARTE",
-          "email": "lucasgiacodu@gmail.com",
-          "avatar": null
-        },
-        "supervisor": null,
-        "student_answer_history": {
-          "form_answers": [],
-          "attachments": [
-            {
-              "id": 48117,
-              "original_name": "lucas_giaco_fase01.zip",
-              "filename": "ddfcec32df8c061bcf8bc29bcfc48481.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/ddfcec32df8c061bcf8bc29bcfc48481.zip?Expires=1773769792&Key-Pair-Id=K2B3OCIVN87WG8&Signature=ktSzt-JOh38KSaaXi1LK5uMvPf7trRsk-FKdBh2J4866dmgxx~Ez-38p97v4nleBTE8RjqsaFo4v39Jn0juCF~j6p82hENFp4GkFuiWbKAImfaP58~g8-8wQerX3TH34gonQHTT3I-mqmOmH0Rki~idpAzfVbemBqQRCrYaKXfqW1FFZp~5paezSdqBaADc9~1gQ3KRqIerhs1QNGLt9o92SYPL2XM7V4eApRp5mmFeYqRB8IGkcsAuzhLeRe-5Kg5cUW~aJwd9k9QU4NWPO0e0lY8PfEJl4h5zsfHjFgyhoIO39VO0f1Vd7ywS6KKHikVwTHhdslxAOccv1705Rnw__"
-            }
-          ]
-        }
-      },
-      {
-        "id": 327679,
-        "created_at": "2026-02-19T09:03:55.590Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": null,
-        "last_submission_date": null,
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 1,
-          "name": "NAO_INICIADO"
-        },
-        "student": {
-          "id": 4250,
-          "name": "LUCAS GIACOMINI DUARTE",
-          "email": "lucasgiacodu@gmail.com",
-          "avatar": null
-        },
-        "supervisor": null
-      }
-    ],
-    "phase_sending_type": "REGULAR",
-    "extraordinary_send": false,
-    "extension_activity_answers": [],
-    "group_infos": null,
-    "phase_id": 120014
-  },
-  {
-    "student_project_id": 72591,
-    "student_project_title": null,
-    "project_status": true,
-    "student": {
-      "id": 5107,
-      "name": "GUSTAVO BRUN DOLIS",
-      "email": "gustavodolis@gmail.com",
-      "avatar": null,
-      "course_name": "Curso Superior de Tecnologia em Banco de Dados",
-      "enrollment_id": 5745,
-      "enrollment_hub_id": 30304,
-      "enrollment_ie": "25151245"
-    },
-    "student_phase": {
-      "id": 120038,
-      "phase_order": 1,
-      "delivery_late": false,
-      "delivery_resend": false,
-      "delivery_at_date": "2026-03-16T12:19:01.000Z",
-      "deadline_evaluation_date": "2026-03-23T03:00:00.000Z",
-      "release_date": "2026-03-24T03:00:00.000Z",
-      "status": {
-        "id": 4,
-        "name": "AGUARDANDO_AVALIACAO"
-      },
-      "attachments": [
-        {
-          "id": 69058,
-          "original_name": "Trabalho Coleta e Prepara\u00e7\u00e3o de Dados - Fase 1.zip",
-          "filename": "dd9199cb58bddad60b24df72860632e9.zip",
-          "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dd9199cb58bddad60b24df72860632e9.zip?Expires=1773769794&Key-Pair-Id=K2B3OCIVN87WG8&Signature=UiySddZNHxIzv47k0UuMTpRvUWM8iWTrcuxGDoSFFh3Jqe6RVBVFcP7eg3Oe9DR-Tw29UUX5Bt~9gRRj8g1AngU2ErBbyjBMI3l5LgenEAVZRoo5qWYj4hsL3Sf76J5O8-z95lZPo7yUIqg28T96BzdW8rbjQyTomiAUkVL2Buua~vTyM6sqCg8tuPkVDrJdoQvZ8zQkgrp6swS-UiJrLYoGWHKFp3BzSsyltJlt2LkWO7ShhlqeTtP743QmgHOnuMAPcLmYm8sDorPWxAuNlkidnayj927Xyd6GZyCBQwMzErREbv~cWKMJdbiE8XscDMSNyig7WTBw~SV~AG3BBw__"
-        }
-      ]
-    },
-    "supervisor": {
-      "id": 52,
-      "name": "Gustavo Monti Rocha",
-      "email": "gustavo.rocha@pucrs.br",
-      "avatar": ""
-    },
-    "criteria": [
-      {
-        "id": 18686,
-        "title": "Crit\u00e9rio 1",
-        "description": "Legibilidade do c\u00f3digo  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39233,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo e existem coment\u00e1rios que auxiliam na interpreta\u00e7\u00e3o do que est\u00e1 sendo feito.  ",
-            "weight": 0.5
-          },
-          {
-            "id": 39234,
-            "description": "O c\u00f3digo \u00e9 organizado, n\u00e3o existem importa\u00e7\u00f5es de bibliotecas no meio do c\u00f3digo.  ",
-            "weight": 0.4
-          },
-          {
-            "id": 39235,
-            "description": "O c\u00f3digo tem problemas de escrita e documenta\u00e7\u00e3o. Por\u00e9m percebe-se que o estudante tentou manter algum padr\u00e3o durante o desenvolvimento. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39236,
-            "description": "O c\u00f3digo est\u00e1 completamente desorganizado e n\u00e3o roda.  ",
-            "weight": 0.1
-          },
-          {
-            "id": 39237,
-            "description": "N\u00e3o foi entregue c\u00f3digo. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18687,
-        "title": "Crit\u00e9rio 2",
-        "description": "Coleta da API REST  ",
-        "total_weight": 0.8,
-        "dimensions": [
-          {
-            "id": 39238,
-            "description": "A coleta de dados da API REST obt\u00e9m todas as informa\u00e7\u00f5es dispon\u00edveis para todos os pa\u00edses e carrega essas informa\u00e7\u00f5es em um dataframe pandas. ",
-            "weight": 0.8
-          },
-          {
-            "id": 39239,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e pa\u00edses sendo criados, por\u00e9m o aluno n\u00e3o obteve informa\u00e7\u00f5es para todos os pa\u00edses ou obteve informa\u00e7\u00f5es faltando. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39240,
-            "description": "A coleta de dados da API REST est\u00e1 incompleta. Existem requisi\u00e7\u00f5es HTTP sendo feitas e, por\u00e9m, apenas um pa\u00eds teve suas informa\u00e7\u00f5es coletadas. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39241,
-            "description": "O aluno n\u00e3o realizou essa etapa ou coletou as informa\u00e7\u00f5es diretamente do arquivo json que estava dispon\u00edvel junto da API sem realizar requisi\u00e7\u00f5es HTTP. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39242,
-            "description": "N\u00e3o foi realizada coleta de dados da API REST. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18688,
-        "title": "Crit\u00e9rio 3",
-        "description": "Coleta do CSV  ",
-        "total_weight": 0.5,
-        "dimensions": [
-          {
-            "id": 39243,
-            "description": "O aluno usou pandas para fazer a leitura do arquivo csv e importou todos os dados dos pa\u00edses em um dataframe. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39244,
-            "description": "O aluno usou a op\u00e7\u00e3o de importar o arquivo CSV diretamente via python com o comando with open(file) as f: e fez split de cada uma das linhas para criar os dados dos pa\u00edses. ",
-            "weight": 0.4
-          },
-          {
-            "id": 39245,
-            "description": "O arquivo CSV existe, por\u00e9m ele est\u00e1 mal formado ou n\u00e3o contempla as informa\u00e7\u00f5es de pa\u00edses. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39246,
-            "description": "O aluno n\u00e3o realizou a leitura dessas informa\u00e7\u00f5es do CSV. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18689,
-        "title": "Crit\u00e9rio 4",
-        "description": "Consolida\u00e7\u00e3o dos Dados",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39247,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV e excluiu linhas que n\u00e3o dizem respeito a pa\u00edses (ou pa\u00edses que se encontram em apenas uma das fontes de dados). ",
-            "weight": 0.6
-          },
-          {
-            "id": 39248,
-            "description": "O aluno usou alguma fun\u00e7\u00e3o do pandas para concatenar os resultados obtidos da API REST e do arquivo CSV. Por\u00e9m ele manteve no resultado dados faltantes, por exemplo um registro de informa\u00e7\u00f5es que n\u00e3o se refere a um pa\u00eds, mas sim a um continente. ",
-            "weight": 0.5
-          },
-          {
-            "id": 39249,
-            "description": "O aluno tentou realizar a consolida\u00e7\u00e3o das informa\u00e7\u00f5es entre as duas fontes de dados, mas n\u00e3o obteve sucesso. ",
-            "weight": 0.3
-          },
-          {
-            "id": 39250,
-            "description": "O aluno n\u00e3o entregou os dados consolidados em um \u00fanico dataframe e n\u00e3o apresentou nenhuma tentativa. ",
-            "weight": 0
-          }
-        ]
-      },
-      {
-        "id": 18690,
-        "title": "Crit\u00e9rio 5",
-        "description": "Arquivo CSV Final  ",
-        "total_weight": 0.6,
-        "dimensions": [
-          {
-            "id": 39251,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021. ",
-            "weight": 0.6
-          },
-          {
-            "id": 39252,
-            "description": "O arquivo CSV gerado apresenta uma linha para cada um dos pa\u00edses obtidos via API REST e apresenta uma coluna para cada um dos anos com valores de GDP (PIB). Os anos com valores de GDP s\u00e3o desde 1960 at\u00e9 2021.   Al\u00e9m dos pa\u00edses existem linhas no CSV para continentes e ilhas (dados obtidos apenas no CSV na etapa anterior e n\u00e3o foram removidos). ",
-            "weight": 0.5
-          },
-          {
-            "id": 39253,
-            "description": "O arquivo CSV gerado apresenta algumas das informa\u00e7\u00f5es solicitadas, mas n\u00e3o todas. Por exemplo, n\u00e3o possui dados de GDP. Por\u00e9m a maioria da informa\u00e7\u00e3o est\u00e1 no arquivo.",
-            "weight": 0.3
-          },
-          {
-            "id": 39254,
-            "description": "O arquivo CSV est\u00e1 com problemas. N\u00e3o existem dados dos pa\u00edses ou n\u00e3o existe uma coluna de header no CSV para identificar cada uma das colunas. Existe algum problema que impossibilita a leitura posterior desse arquivo. ",
-            "weight": 0.1
-          },
-          {
-            "id": 39255,
-            "description": "N\u00e3o foi entregue o arquivo final com todos os dados compilados. ",
-            "weight": 0
-          }
-        ]
-      }
-    ],
-    "percentage_delay": 0.20000000000000004,
-    "feedbacks": [
-      {
-        "id": 308,
-        "title": "Fase 1",
-        "text": "<p>Parab\u00e9ns!</p>\n<p>Voc\u00ea conseguiu entregar todas os itens do seu trabalho! Ressalto os seguintes pontos:</p>\n<p>1) O c\u00f3digo est\u00e1 bem organizado e com coment\u00e1rios que auxiliam a compreens\u00e3o de todos os blocos executados.</p>\n<p>2) Os dados foram coletados atrav\u00e9s da API REST e adicionados a um dataframe pandas.</p>\n<p>3) Os dados foram coletados do CSV e adisicionados a um dataframe pandas.</p>\n<p>4) Voc\u00ea utilizou a fun\u00e7\u00e3o \"inner\" para concatenar os dados. Experimente outras fun\u00e7\u00f5es tamb\u00e9m para ver como isso modifica seu resultado final.</p>\n<p>5) O arquivo CSV foi gerado concatenando informa\u00e7\u00f5es das duas fontes de dados.</p>"
-      }
-    ],
-    "history": [
-      {
-        "id": 334445,
-        "created_at": "2026-03-16T15:19:01.907Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": "2026-03-16T15:19:01.000Z",
-        "last_submission_date": "2026-03-16T15:19:01.000Z",
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 4,
-          "name": "AGUARDANDO_AVALIACAO"
-        },
-        "student": {
-          "id": 5107,
-          "name": "GUSTAVO BRUN DOLIS",
-          "email": "gustavodolis@gmail.com",
-          "avatar": null
-        },
-        "supervisor": null,
-        "student_answer_history": {
-          "form_answers": [],
-          "attachments": [
-            {
-              "id": 47669,
-              "original_name": "Trabalho Coleta e Prepara\u00e7\u00e3o de Dados - Fase 1.zip",
-              "filename": "dd9199cb58bddad60b24df72860632e9.zip",
-              "url": "https://pucrs-ie-conteudo-prod.edtech.com.br/conteudos/dd9199cb58bddad60b24df72860632e9.zip?Expires=1773769794&Key-Pair-Id=K2B3OCIVN87WG8&Signature=UiySddZNHxIzv47k0UuMTpRvUWM8iWTrcuxGDoSFFh3Jqe6RVBVFcP7eg3Oe9DR-Tw29UUX5Bt~9gRRj8g1AngU2ErBbyjBMI3l5LgenEAVZRoo5qWYj4hsL3Sf76J5O8-z95lZPo7yUIqg28T96BzdW8rbjQyTomiAUkVL2Buua~vTyM6sqCg8tuPkVDrJdoQvZ8zQkgrp6swS-UiJrLYoGWHKFp3BzSsyltJlt2LkWO7ShhlqeTtP743QmgHOnuMAPcLmYm8sDorPWxAuNlkidnayj927Xyd6GZyCBQwMzErREbv~cWKMJdbiE8XscDMSNyig7WTBw~SV~AG3BBw__"
-            }
-          ]
-        }
-      },
-      {
-        "id": 327703,
-        "created_at": "2026-02-19T09:03:56.285Z",
-        "delivered_late": false,
-        "delivered_resend": false,
-        "submission_date": null,
-        "last_submission_date": null,
-        "evaluation_date": null,
-        "evaluation_correction": null,
-        "status": {
-          "id": 1,
-          "name": "NAO_INICIADO"
-        },
-        "student": {
-          "id": 5107,
-          "name": "GUSTAVO BRUN DOLIS",
-          "email": "gustavodolis@gmail.com",
-          "avatar": null
-        },
-        "supervisor": null
-      }
-    ],
-    "phase_sending_type": "REGULAR",
-    "extraordinary_send": false,
-    "extension_activity_answers": [],
-    "group_infos": null,
-    "phase_id": 120038
+    "phase_id": 120020
   }
 ]
