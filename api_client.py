@@ -3,6 +3,10 @@ import json
 import os
 from typing import Dict, Any, Optional
 from urllib.parse import urlparse
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 class CookieAPIClient:
@@ -265,8 +269,8 @@ def main():
             "page": "1",
             "search": "",
             "regularities_ids": "",
-            "phase_orders": "",
-            "status_ids": "",
+            "phase_orders": os.getenv("PHASE_ORDERS", "1"),
+            "status_ids": os.getenv("STATUS_IDS", "4"),
             "students_ids": ""
         }
         

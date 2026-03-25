@@ -3,6 +3,10 @@ from api_client import CookieAPIClient
 import json
 import os
 import argparse
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # =============================================================================
 # CONFIGURATION PARAMETERS
@@ -16,7 +20,8 @@ STUDENT_PHASE_ENDPOINT = os.getenv("STUDENT_PHASE_ENDPOINT", "/api/project-offic
 # Request Parameters
 PROJECT_OFFICE_ID = os.getenv("PROJECT_OFFICE_ID", "11820")
 PERIOD_ID = os.getenv("PERIOD_ID", "20076")
-PHASE_ORDERS = int(os.getenv("PHASE_ORDERS", "1"))  #1 = Fase 1, 2 = Fase 2, 3 = Fase 3
+PHASE_ORDERS = int(os.getenv("PHASE_ORDERS", "1"))  #1 = Fase 1, 2 = Fase 2, 3 = Fase 3,
+
 STATUS_IDS = int(os.getenv("STATUS_IDS", "4"))  #4 = AGUARDANDO_AVALIACAO, 10 = AVALIADO
 
 # File Paths
@@ -41,6 +46,9 @@ def get_all_students():
         "phase_orders": PHASE_ORDERS,
         "status_ids": STATUS_IDS,
     }
+    
+    print(f"🔍 DEBUG: Sending parameters: {params}")
+    print(f"🔍 DEBUG: PHASE_ORDERS value: {PHASE_ORDERS} (type: {type(PHASE_ORDERS)})")
     
     try:
         print("📊 Fetching correction flow data with parameters...")
