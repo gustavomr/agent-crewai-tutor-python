@@ -131,7 +131,7 @@ def analyze_student_code(codigo_aluno, student_name, llm, csv_file_path=None):
         goal='Validar se o script cumpre todos os requisitos pedagógicos e técnicos exigidos.',
         backstory="""Você é um revisor rigoroso mas didático. Sua função é garantir que o 
         código não apenas funcione, mas que siga exatamente as regras de negócio 
-        estabelecidas no enunciado do exercício.""",
+        estabelecidas no enunciado do exercício. Você terá que executar o programa do aluno para encontrar cada uma das letras do exercício""",
         llm=llm,
         verbose=True
     )
@@ -140,8 +140,7 @@ def analyze_student_code(codigo_aluno, student_name, llm, csv_file_path=None):
     tarefa_analise = Task(
         description=f"""
         
-Requisitos Funcionais (Itens A ao E):
-
+Requisitos Funcionais (Itens A ao E). 
 Item A: Verificar se o aluno usou open('arquivo.csv') ou similar e fez a leitura do arquivo CSV.
 
 Item B: O programa permite filtrar por período (mês/ano inicial e final) e escolher o tipo de dado (Precipitação, Temp, etc)? Usando como entrada no mês inicial 4 e 5 e ano de 1984 é apresentado dados corres pondentes. Para a precipitação (item2) um valor possível é 15.3 no dia 27/05/1984.
@@ -161,7 +160,7 @@ CÓDIGO DO ALUNO PARA ANÁLISE:
         expected_output="""Um relatório estruturado contendo:
         - Lista de requisitos atendidos e não atendidos. Para cada item avaliado coloque um SIM ou NÃO. Para os casos de NÃO informe o motivo.
         - No máximo 3 sugestões de melhoria no código em texto a serem enviadas ao aluno.
-        - Não é necessário ter uma conclusão""",
+        - Favor no final do arquivo colocar para cada letra os valores que foram encontrados na execução do programa do aluno""",
         agent=revisor_tecnico
     )
 

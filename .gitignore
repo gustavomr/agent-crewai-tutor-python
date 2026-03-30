@@ -1,6 +1,8 @@
 # Environment variables
 .env
 
+downloads
+
 # Virtual environment
 .venv/
 venv/
